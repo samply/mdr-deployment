@@ -4,6 +4,8 @@ The MDR, or Metadata Repository, is a software tool that supports a standardized
 
 It uses so-called Namespaces to hold sets of descriptions. Multiple namespaces are possible. This allows, for example, versioned data descriptions, where multiple versions are available concurrently. It also permits the use of different data models in different projects. Namespaces must have unique names.
 
+This repository bundles the MDR components together with Samply.auth, to make it easy to install and run your own MDR.
+
 ### Components
 
 The MDR has 4 components:
