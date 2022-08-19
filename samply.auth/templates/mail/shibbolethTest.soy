@@ -1,0 +1,26 @@
+{delpackage ShibbolethTest}
+{namespace samply.mailing}
+
+/**
+ * Main content for a test mail.
+ * @param? debugInfo The header names and values for request
+ * @param? timestamp The login time
+ * @param? locale The locale
+  */
+{deltemplate maincontent}
+    {switch $locale}
+        {case 'de', 'de_DE'}
+            {\n}
+
+            Ein Benutzer hat versucht mit DFN-AAI sich anzumelden (Anmeldungszeit {$timestamp} UTC). Hier ist debug info:{\n}{\n}
+
+            {$debugInfo}
+
+        {default}
+            {\n}
+            An user is trying to login with his DFN-AAI account (login time {$timestamp} UTC). Here is the debug info: {\n}{\n}
+
+            {$debugInfo}
+
+    {/switch}
+{/deltemplate}

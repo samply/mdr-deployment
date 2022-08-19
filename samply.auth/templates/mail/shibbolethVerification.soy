@@ -1,0 +1,24 @@
+{delpackage Verification}
+{namespace samply.mailing}
+
+/**
+ * Main content for a test mail.
+ * @param? url The invitation link on Samply.Auth
+ * @param? locale The locale
+ */
+{deltemplate maincontent}
+    {switch $locale}
+        {case 'de', 'de_DE'}
+            Sie haben sich bei Samply.Auth angemeldet. Um Ihre Email Adresse zu verifizieren, besuchen Sie bitte die folgende Webseite:{\n}{\n}
+
+            {$url}{\n}{\n}
+
+            Falls Sie sich nicht auf Samply.Auth angemeldet haben, können Sie diese Email ignorieren.
+        {default}
+            You have logged in at Samply.Auth. Please visit this website to verify your email address: {\n}{\n}
+
+            {$url}{\n}{\n}
+
+            If you did not log in at Samply.Auth, please ignore this email.
+    {/switch}
+{/deltemplate}

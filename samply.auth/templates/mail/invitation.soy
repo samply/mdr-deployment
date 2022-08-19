@@ -1,0 +1,22 @@
+{delpackage Invitation}
+{namespace samply.mailing}
+
+/**
+ * Main content for a test mail.
+ * @param? url The invitation link on Samply.Auth
+ * @param? locale The locale
+ */
+{deltemplate maincontent}
+    {switch $locale}
+        {case 'de', 'de_DE'}
+            Unser Kollege hat sie auf unsere IT Plattform eingeladen. Um fortzufahren. nutzen Sie bitte den folgenden Link: {\n}{\n}
+
+            {$url}
+
+        {default}
+            Our colleague has invited you to use our IT platform. To proceed, use the following link:{\n}{\n}
+
+            {$url}
+
+    {/switch}
+{/deltemplate}

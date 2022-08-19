@@ -1,0 +1,105 @@
+version: '3.4'
+services:
+
+  mdr-samplyauth-db:
+    image: postgres:9.5-alpine
+    env_file:
+      - env_vars.conf
+    networks:
+      - "mdr-samplyauth-db"
+    volumes:
+      - mdr-samplyauth-db-data:/var/lib/postgresql/data
+
+  mdr-samplyauth:
+    build: samply.auth
+    env_file:
+      - env_vars.conf
+    environment:
+      CATALINA_OPTS: "-Xmx2g -Dlog4j2.formatMsgNoLookups=true"
+    ports:
+      - "8086:8086"
+    depends_on:
+      - mdr-samplyauth-db
+    networks:
+      - "mdr-samplyauth-db"
+      - "mdr-samplyauth"
+    restart: always
+
+  mdr-db:
+    image: "postgres:9.6"
+    environment:
+      POSTGRES_USER: "mdr"
+      POSTGRES_PASSWORD: "mdr"
+      POSTGRES_DB: "mdr_db"
+    networks:
+      - "mdr-db"
+    volumes:
+      - "mdr-db-data:/var/lib/postgresql/data"
+    restart: always
+
+  mdr:
+    image: "docker.verbis.dkfz.de/ccp/mdr-rest:release-gba-mdr"
+    networks:
+      - "mdr-db"
+      - "mdr-samplyauth"
+    environment:
+      TOMCAT_USERNAME: "admin"
+      TOMCAT_PASSWORD: "adminpass"
+      DB_HOST: "mdr-db"
+      DB_PORT: 5432
+      DB_NAME: "mdr_db"
+      DB_USER: "mdr"
+      DB_PASSWORD: "mdr"
+      AUTH_CLIENT_ID: "mdr_ui"
+      AUTH_CLIENT_SECRET: "1k6ptb82sco1ufhnsbe8eahebgn840af9jntquke58i4qmg3nplmg9gkqtq6uh2s9t1vkdjthe1qd3id8pu7e6n8iva9lq7im4cfmi"
+      AUTH_HOST: "http://locator.vm.cesnet.cz:8086"
+      AUTH_PUBKEY: "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAnS5cJ81YT9TBOf6TrkN326ILj8ILRauqYHa4vIaUhRoqOIrk058Al6JoGP6Wqv99lndCHjyyuPGkl/qpu17uTLTK0Sm60BYoj2rn2hno1V/T7FtvQ6oWYE5+ojjDB5YOwZYu4vJU2DzZo5fi0XzcmpAQgyDwzsHMxzp3ojy3UWQ9oTz8gJRSJs1CDue7MlU2w1LNUzr+rrm5NQbf6L1X0KS2oWi6A56BWvN9yZK+3rz4XJfUnDAtlQaajaOgpCydkrYYVzWHTQsz1h02Wg4yaEzat2UdYHJlgf7Oyk/9XAOPVY1oLAxshvJy5JnMjzRGtQfYF2bEdf5wFS0my24dPwvcSiWnDheT6Tddb8yRJ+TajRuRyCLZNBnU34HcUEwqA47e0BBQOIDnIoQJ6BLqSOmbJAY/9v0ertmOQfZ4Yqr/dL9B2d3byfGPYUrCmbS0Qqp17AGX9v89POSiPb7C6+yb830hWFDFUcGwfZOcHkjLRuuTYKs5QUQ1X3AwPA6rubUx2ZKjz5FXG5EkX3LfMTJGTT5fh211CnSA1M+v9FAFamEStXLcab9EbG6iJZYw7Nd95kLny6Rb2K0mVxuu1VhdhHwUJtAfOZ/CgS397qTT9YHQWq5432+NOYyALmHI9NgLdIzbapdM1aDQbj8Zl8v3217Zwy6j+Wbf/5nh3akCAwEAAQ=="
+      CATALINA_OPTS: "-Xmx2g -Dlog4j2.formatMsgNoLookups=true"
+    ports:
+      # This port needs to be exposed unchanged, so that calls from the SL-UI get routed properly
+      - "8080:8080"
+    depends_on:
+      - "mdr-samplyauth"
+      - "mdr-db"
+    restart: always
+
+  mdr-ui:
+    image: docker.verbis.dkfz.de/ccp/mdr:release-gba-mdr
+    networks:
+      - "mdr-db"
+      - "mdr-samplyauth"
+    environment:
+      TOMCAT_USERNAME: "admin"
+      TOMCAT_PASSWORD: "adminpass"
+      DB_HOST: "mdr-db"
+      DB_PORT: 5432
+      DB_NAME: "mdr_db"
+      DB_USER: "mdr"
+      DB_PASSWORD: "mdr"
+      AUTH_CLIENT_ID: "mdr_ui"
+      AUTH_CLIENT_SECRET: "1k6ptb82sco1ufhnsbe8eahebgn840af9jntquke58i4qmg3nplmg9gkqtq6uh2s9t1vkdjthe1qd3id8pu7e6n8iva9lq7im4cfmi"
+      AUTH_HOST: "http://mdr-samplyauth:8086"
+      AUTH_PUBKEY: "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAnS5cJ81YT9TBOf6TrkN326ILj8ILRauqYHa4vIaUhRoqOIrk058Al6JoGP6Wqv99lndCHjyyuPGkl/qpu17uTLTK0Sm60BYoj2rn2hno1V/T7FtvQ6oWYE5+ojjDB5YOwZYu4vJU2DzZo5fi0XzcmpAQgyDwzsHMxzp3ojy3UWQ9oTz8gJRSJs1CDue7MlU2w1LNUzr+rrm5NQbf6L1X0KS2oWi6A56BWvN9yZK+3rz4XJfUnDAtlQaajaOgpCydkrYYVzWHTQsz1h02Wg4yaEzat2UdYHJlgf7Oyk/9XAOPVY1oLAxshvJy5JnMjzRGtQfYF2bEdf5wFS0my24dPwvcSiWnDheT6Tddb8yRJ+TajRuRyCLZNBnU34HcUEwqA47e0BBQOIDnIoQJ6BLqSOmbJAY/9v0ertmOQfZ4Yqr/dL9B2d3byfGPYUrCmbS0Qqp17AGX9v89POSiPb7C6+yb830hWFDFUcGwfZOcHkjLRuuTYKs5QUQ1X3AwPA6rubUx2ZKjz5FXG5EkX3LfMTJGTT5fh211CnSA1M+v9FAFamEStXLcab9EbG6iJZYw7Nd95kLny6Rb2K0mVxuu1VhdhHwUJtAfOZ/CgS397qTT9YHQWq5432+NOYyALmHI9NgLdIzbapdM1aDQbj8Zl8v3217Zwy6j+Wbf/5nh3akCAwEAAQ=="
+      CATALINA_OPTS: "-Xmx2g -Dlog4j2.formatMsgNoLookups=true"
+    ports:
+      - "8087:8080"
+    depends_on:
+      - "mdr-samplyauth"
+      - "mdr-db"
+    restart: always
+
+networks:
+  mdr-db:
+    driver: "bridge"
+  mdr-samplyauth:
+    driver: "bridge"
+  mdr-samplyauth-db:
+    driver: "bridge"
+
+
+volumes:
+  mdr-samplyauth-db-data:
+     name: "mdr-samplyauth-db-data"
+  mdr-db-data:
+     name: "mdr-db-data"
+

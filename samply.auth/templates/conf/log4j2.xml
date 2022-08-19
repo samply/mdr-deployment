@@ -1,0 +1,27 @@
+<Configuration
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="http://log4j2.apache.org/Log4j2.xsd"
+            xsi:schemaLocation="http://log4j2.apache.org/Log4j2 http://log4j2.apache.org/Log4j2.xsd">
+    <Appenders>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{ABSOLUTE} %-5p %C (%F:%L) - %m%n" />
+        </Console>
+        <File name="Users"
+                     fileName="/var/log/samply/users.log">
+            <PatternLayout>
+                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="org.apache.log4j.xml" level="debug" />
+        <Logger name="de.samply.sdao.AbstractDAO" level="debug" />
+        <Logger name="de.samply.sdao.ArrayBinder" level="error" />
+        <Logger name="LoginInfo" level="info" additivity="false">
+            <AppenderRef ref="Users"/>
+        </Logger>
+        <Root level="info">
+            <AppenderRef ref="STDOUT" />
+        </Root>
+    </Loggers>
+</Configuration>

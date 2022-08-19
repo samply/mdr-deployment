@@ -1,0 +1,2787 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<export xmlns="http://schema.samply.de/mdr/common">
+    <namespace uuid="a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36">
+        <definitions>
+            <definition lang="en" uuid="a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36">
+                <designation>mdr16</designation>
+                <definition>A clone of the mdr16 dataspace (GBA), with a couple of extra attributes for EJP-RD.</definition>
+            </definition>
+        </definitions>
+        <name>mdr16</name>
+    </namespace>
+    <describedValueDomain uuid="7cc62c9b-ab2d-4506-869a-eb6bef601eec">
+        <format>15&lt;=x&lt;=30</format>
+        <datatype>FLOAT</datatype>
+        <maxCharacters>0</maxCharacters>
+        <unitOfMeasure></unitOfMeasure>
+        <description>15&lt;=x&lt;=30</description>
+        <validationType>FLOATRANGE</validationType>
+        <validationData>15&lt;=x&lt;=30</validationData>
+    </describedValueDomain>
+    <dataElement uuid="fecce236-a535-4e1e-acbb-0243927563cc">
+        <valueDomain>7cc62c9b-ab2d-4506-869a-eb6bef601eec</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="4bac2468-cb20-4e8f-a0ac-d23cce3fbe52">
+        <definitions>
+            <definition lang="de" uuid="fecce236-a535-4e1e-acbb-0243927563cc">
+                <designation>BMI</designation>
+                <definition>BMI (automatisch errechnet)</definition>
+            </definition>
+            <definition lang="en" uuid="fecce236-a535-4e1e-acbb-0243927563cc">
+                <designation>BMI</designation>
+                <definition>BMI (calculated automatically)</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>31</identifier>
+        <version>1</version>
+        <element>fecce236-a535-4e1e-acbb-0243927563cc</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="1c5c8fa8-85e6-41a3-b69f-d7acdc24b116">
+        <format>0&lt;=x&lt;=250</format>
+        <datatype>FLOAT</datatype>
+        <maxCharacters>0</maxCharacters>
+        <unitOfMeasure>cm</unitOfMeasure>
+        <description>0&lt;=x&lt;=250</description>
+        <validationType>FLOATRANGE</validationType>
+        <validationData>0&lt;=x&lt;=250</validationData>
+    </describedValueDomain>
+    <dataElement uuid="e6a0e164-68b1-4185-bbca-5627fb029311">
+        <valueDomain>1c5c8fa8-85e6-41a3-b69f-d7acdc24b116</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="30e38be7-c674-48e8-a69a-6fe1e6976e34">
+        <definitions>
+            <definition lang="de" uuid="e6a0e164-68b1-4185-bbca-5627fb029311">
+                <designation>Körpergröße</designation>
+                <definition>Körpergröße gemessen im Stehen ohne Kopfbedeckung und Schuhe</definition>
+            </definition>
+            <definition lang="en" uuid="e6a0e164-68b1-4185-bbca-5627fb029311">
+                <designation>Body height</designation>
+                <definition>Height of sample donor measured standing - without headgear or shoes</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>30</identifier>
+        <version>1</version>
+        <element>e6a0e164-68b1-4185-bbca-5627fb029311</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="42c920ca-cb27-4f11-9709-29fa684c69f3">
+        <format>0&lt;=x&lt;=500</format>
+        <datatype>FLOAT</datatype>
+        <maxCharacters>0</maxCharacters>
+        <unitOfMeasure>kg</unitOfMeasure>
+        <description>0&lt;=x&lt;=500</description>
+        <validationType>FLOATRANGE</validationType>
+        <validationData>0&lt;=x&lt;=500</validationData>
+    </describedValueDomain>
+    <dataElement uuid="e1b4042a-175a-42ad-bc00-1be49fcffdd1">
+        <valueDomain>42c920ca-cb27-4f11-9709-29fa684c69f3</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="4ae91575-4993-4897-932c-c1b63b9bdda3">
+        <definitions>
+            <definition lang="de" uuid="e1b4042a-175a-42ad-bc00-1be49fcffdd1">
+                <designation>Gewicht</designation>
+                <definition>Gewicht mit Straßenkleidung, ohne Jacke und Schuhe</definition>
+            </definition>
+            <definition lang="en" uuid="e1b4042a-175a-42ad-bc00-1be49fcffdd1">
+                <designation>Body weight</designation>
+                <definition>Weight of sample donor - wearing clothes but no shoes or jacket</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>29</identifier>
+        <version>1</version>
+        <element>e1b4042a-175a-42ad-bc00-1be49fcffdd1</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <enumeratedValueDomain uuid="0f02d971-fbec-49a8-93b9-9f604f63e5dc">
+        <format>enumerated</format>
+        <datatype>enumerated</datatype>
+        <maxCharacters>0</maxCharacters>
+    </enumeratedValueDomain>
+    <dataElement uuid="bde56a49-3c4f-4bf0-a63c-5c4f6ae4bb14">
+        <valueDomain>0f02d971-fbec-49a8-93b9-9f604f63e5dc</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="97a3cd7b-b28d-4ec2-b537-fce5ed661706">
+        <definitions>
+            <definition lang="de" uuid="bde56a49-3c4f-4bf0-a63c-5c4f6ae4bb14">
+                <designation>Todesursache ICD-10</designation>
+                <definition>Aktuelle ICD-10 Kodierung der Todesursache</definition>
+            </definition>
+            <definition lang="en" uuid="bde56a49-3c4f-4bf0-a63c-5c4f6ae4bb14">
+                <designation>Cause of death ICD-10</designation>
+                <definition>Current ICD-10 code of cause of death</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>34</identifier>
+        <version>1</version>
+        <element>bde56a49-3c4f-4bf0-a63c-5c4f6ae4bb14</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="6bc767d3-76c6-47f3-9207-d86d4114d1a5">
+        <format>DD.MM.YYYY</format>
+        <datatype>DATE</datatype>
+        <maxCharacters>10</maxCharacters>
+        <description>DD.MM.YYYY</description>
+        <validationType>DATE</validationType>
+        <validationData>DIN_5008_WITH_DAYS</validationData>
+    </describedValueDomain>
+    <dataElement uuid="81afe6b6-1dec-42d7-b341-fbfb3b94b1fd">
+        <valueDomain>6bc767d3-76c6-47f3-9207-d86d4114d1a5</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="dc94b4a1-5a1e-4d25-a213-d13ed76df089">
+        <definitions>
+            <definition lang="de" uuid="81afe6b6-1dec-42d7-b341-fbfb3b94b1fd">
+                <designation>Diagnosedatum</designation>
+                <definition>Datum, an dem Diagnose gestellt wurde</definition>
+            </definition>
+            <definition lang="en" uuid="81afe6b6-1dec-42d7-b341-fbfb3b94b1fd">
+                <designation>Date of diagnosis</designation>
+                <definition>Date of diagnosis</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>26</identifier>
+        <version>1</version>
+        <element>81afe6b6-1dec-42d7-b341-fbfb3b94b1fd</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="77b714fe-352f-4c37-b247-70935ac4e70a">
+        <format>0&lt;=x&lt;=120</format>
+        <datatype>FLOAT</datatype>
+        <maxCharacters>0</maxCharacters>
+        <unitOfMeasure>years</unitOfMeasure>
+        <description>0&lt;=x&lt;=120</description>
+        <validationType>FLOATRANGE</validationType>
+        <validationData>0&lt;=x&lt;=120</validationData>
+    </describedValueDomain>
+    <dataElement uuid="715de188-69bf-449b-9d01-a82c71a23a44">
+        <valueDomain>77b714fe-352f-4c37-b247-70935ac4e70a</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="ede2555c-7bd5-4ea7-b413-da94d7f07016">
+        <definitions>
+            <definition lang="de" uuid="715de188-69bf-449b-9d01-a82c71a23a44">
+                <designation>Diagnose Alter Spender</designation>
+                <definition>Alter des Spenders bei Diagnose in Jahren (automatisch errechnet)</definition>
+            </definition>
+            <definition lang="en" uuid="715de188-69bf-449b-9d01-a82c71a23a44">
+                <designation>Diagnosis age donor</designation>
+                <definition>Age of donor at sampling (calculated automatically)</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>28</identifier>
+        <version>1</version>
+        <element>715de188-69bf-449b-9d01-a82c71a23a44</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="eac4d452-41f0-47e3-89b2-781170388624">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="42c3981a-bc9e-42cd-bec6-bd88a54507da">
+        <valueDomain>eac4d452-41f0-47e3-89b2-781170388624</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="1aee424a-1b89-41bc-99c1-fef1040fa9a9">
+        <definitions>
+            <definition lang="de" uuid="42c3981a-bc9e-42cd-bec6-bd88a54507da">
+                <designation>Diagnose ICD-10</designation>
+                <definition>Aktuelle ICD-10 Kodierung einer meldepflichtigen Erkrankung</definition>
+            </definition>
+            <definition lang="en" uuid="42c3981a-bc9e-42cd-bec6-bd88a54507da">
+                <designation>Diagnosis ICD-10</designation>
+                <definition>Current ICD-10 code of diagnosis</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>27</identifier>
+        <version>1</version>
+        <element>42c3981a-bc9e-42cd-bec6-bd88a54507da</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="28ae016a-504f-4dd1-b28c-4b55df44c31a">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="ae649d05-5ed3-45eb-b836-5419fd8c4102">
+        <valueDomain>28ae016a-504f-4dd1-b28c-4b55df44c31a</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="f60f7a29-0620-4890-9e26-6cee6969b93f">
+        <definitions>
+            <definition lang="en" uuid="ae649d05-5ed3-45eb-b836-5419fd8c4102">
+                <designation>DiagnosisOrpha</designation>
+                <definition>Orphanet code for the diagnosis</definition>
+            </definition>
+        </definitions>
+        <slots/>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>46</identifier>
+        <version>1</version>
+        <element>ae649d05-5ed3-45eb-b836-5419fd8c4102</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="d2cbd78b-d38d-4f9a-8a1c-cde4ac7435f1">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="05cb8976-f738-4e94-acd4-579225dfd3b8">
+        <valueDomain>d2cbd78b-d38d-4f9a-8a1c-cde4ac7435f1</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="cedceedb-b9e5-4ec1-977a-88e7f84f60b0">
+        <definitions>
+            <definition lang="en" uuid="05cb8976-f738-4e94-acd4-579225dfd3b8">
+                <designation>Event ID</designation>
+                <definition>Possibly foreign ID</definition>
+            </definition>
+            <definition lang="de" uuid="05cb8976-f738-4e94-acd4-579225dfd3b8">
+                <designation>Klinische Daten ID</designation>
+                <definition>ggf. Fremd-ID</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>11</identifier>
+        <version>1</version>
+        <element>05cb8976-f738-4e94-acd4-579225dfd3b8</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <permissibleValue valueDomain="85a06121-ec1d-45dc-9915-70dc630bf3ce" uuid="1136ceb9-b220-44fc-b306-e9830aefc58f">
+        <value>fasting_sober</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="85a06121-ec1d-45dc-9915-70dc630bf3ce" uuid="a1c7d3f8-eb00-42f4-afd3-d83d09535b40">
+        <value>fasting_non_sober</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="85a06121-ec1d-45dc-9915-70dc630bf3ce" uuid="2843401a-c655-41ba-bbb9-687adeebc872">
+        <value>fasting_status_other</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="85a06121-ec1d-45dc-9915-70dc630bf3ce" uuid="f00740d9-4bf6-4946-bea5-e93db6affe45">
+        <value>fasting_status_uncharted</value>
+    </permissibleValue>
+    <enumeratedValueDomain uuid="85a06121-ec1d-45dc-9915-70dc630bf3ce">
+        <format>enumerated</format>
+        <datatype>enumerated</datatype>
+        <maxCharacters>0</maxCharacters>
+    </enumeratedValueDomain>
+    <dataElement uuid="5e72c9d9-dbb8-4542-b9b0-d9e014ea320d">
+        <valueDomain>85a06121-ec1d-45dc-9915-70dc630bf3ce</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="ec5e7a4d-65f4-41be-accc-634eb1132cd1">
+        <definitions>
+            <definition lang="de" uuid="5e72c9d9-dbb8-4542-b9b0-d9e014ea320d">
+                <designation>Fastenstatus</designation>
+                <definition>Ob der Probenspender in den letzten 12h vor Probenentnahme nüchtern war</definition>
+            </definition>
+            <definition lang="en" uuid="5e72c9d9-dbb8-4542-b9b0-d9e014ea320d">
+                <designation>Fasting status</designation>
+                <definition>Whether or not the sample donor has been sober for the last 12 hours before sampling</definition>
+            </definition>
+            <definition lang="de" uuid="1136ceb9-b220-44fc-b306-e9830aefc58f">
+                <designation>Nüchtern</designation>
+                <definition>Ob der Probenspender in den letzten 12h vor Probenentnahme nüchtern war</definition>
+            </definition>
+            <definition lang="en" uuid="1136ceb9-b220-44fc-b306-e9830aefc58f">
+                <designation>Sober</designation>
+                <definition>Whether or not the sample donor has been sober for the last 12 hours before sampling</definition>
+            </definition>
+            <definition lang="de" uuid="a1c7d3f8-eb00-42f4-afd3-d83d09535b40">
+                <designation>Nicht nüchtern</designation>
+                <definition>Ob der Probenspender in den letzten 12h vor Probenentnahme nüchtern war</definition>
+            </definition>
+            <definition lang="en" uuid="a1c7d3f8-eb00-42f4-afd3-d83d09535b40">
+                <designation>Not sober</designation>
+                <definition>Whether or not the sample donor has been sober for the last 12 hours before sampling</definition>
+            </definition>
+            <definition lang="de" uuid="2843401a-c655-41ba-bbb9-687adeebc872">
+                <designation>Anderer Fastenstatus</designation>
+                <definition>Ob der Probenspender in den letzten 12h vor Probenentnahme nüchtern war</definition>
+            </definition>
+            <definition lang="en" uuid="2843401a-c655-41ba-bbb9-687adeebc872">
+                <designation>Other fasting status</designation>
+                <definition>Whether or not the sample donor has been sober for the last 12 hours before sampling</definition>
+            </definition>
+            <definition lang="de" uuid="f00740d9-4bf6-4946-bea5-e93db6affe45">
+                <designation>Fastenstatus unbekannt</designation>
+                <definition>Ob der Probenspender in den letzten 12h vor Probenentnahme nüchtern war</definition>
+            </definition>
+            <definition lang="en" uuid="f00740d9-4bf6-4946-bea5-e93db6affe45">
+                <designation>Uncharted fasting status</designation>
+                <definition>Whether or not the sample donor has been sober for the last 12 hours before sampling</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>33</identifier>
+        <version>1</version>
+        <element>5e72c9d9-dbb8-4542-b9b0-d9e014ea320d</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <permissibleValue valueDomain="c1ae487a-372b-457b-be50-3c75f9be8950" uuid="5ca9fee5-ebe4-4ee6-bf7a-ec38f2614313">
+        <value>smoker_yes</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="c1ae487a-372b-457b-be50-3c75f9be8950" uuid="c7f57914-3099-4f93-a423-6ed53aa49f63">
+        <value>former_smoker</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="c1ae487a-372b-457b-be50-3c75f9be8950" uuid="8543256d-6389-40de-9927-3ea1a62a5f9b">
+        <value>smoker_no</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="c1ae487a-372b-457b-be50-3c75f9be8950" uuid="be87f552-9624-4dde-8e5e-945c9a92a91a">
+        <value>smoking_habit_uncharted</value>
+    </permissibleValue>
+    <enumeratedValueDomain uuid="c1ae487a-372b-457b-be50-3c75f9be8950">
+        <format>enumerated</format>
+        <datatype>enumerated</datatype>
+        <maxCharacters>0</maxCharacters>
+    </enumeratedValueDomain>
+    <dataElement uuid="e54076a6-2b47-4fb3-ae8a-b8a1bd0e504b">
+        <valueDomain>c1ae487a-372b-457b-be50-3c75f9be8950</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="84df385f-a4c9-452c-85e5-7c9d4d7ea279">
+        <definitions>
+            <definition lang="de" uuid="e54076a6-2b47-4fb3-ae8a-b8a1bd0e504b">
+                <designation>Raucherstatus</designation>
+                <definition>Aktueller oder früherer Genuss von Zigaretten, Zigarren, Pfeife oder Kautabak</definition>
+            </definition>
+            <definition lang="en" uuid="e54076a6-2b47-4fb3-ae8a-b8a1bd0e504b">
+                <designation>Smoking habit</designation>
+                <definition>Sample donor's current or former use of cigarettes, cigars, pipe or chewing tobacco</definition>
+            </definition>
+            <definition lang="de" uuid="5ca9fee5-ebe4-4ee6-bf7a-ec38f2614313">
+                <designation>Raucher</designation>
+                <definition>Aktuell täglicher oder gelegentlicher Genuss von Zigaretten, Zigarren, Pfeife oder Kautabak</definition>
+            </definition>
+            <definition lang="en" uuid="5ca9fee5-ebe4-4ee6-bf7a-ec38f2614313">
+                <designation>Smoker</designation>
+                <definition>Sample donor's daily or occasional use of cigarettes, cigars, pipe or chewing tobacco</definition>
+            </definition>
+            <definition lang="de" uuid="c7f57914-3099-4f93-a423-6ed53aa49f63">
+                <designation>Ex-Raucher</designation>
+                <definition>Abstinent vom Genuss von Zigaretten, Zigarren, Pfeife oder Kautabak für mehr als 6 Monate</definition>
+            </definition>
+            <definition lang="en" uuid="c7f57914-3099-4f93-a423-6ed53aa49f63">
+                <designation>Former smoker</designation>
+                <definition>Sample donor's abstinence from use of cigarettes, cigars, pipe or chewing tobacco or more than 6 month</definition>
+            </definition>
+            <definition lang="de" uuid="8543256d-6389-40de-9927-3ea1a62a5f9b">
+                <designation>Nichtraucher</designation>
+                <definition>Kein aktueller oder früherer Genuss von Zigaretten, Zigarren, Pfeife oder Kautabak</definition>
+            </definition>
+            <definition lang="en" uuid="8543256d-6389-40de-9927-3ea1a62a5f9b">
+                <designation>Non-smoker</designation>
+                <definition>Sample donor's abstinence from use or former use of cigarettes, cigars, pipe or chewing tobacco</definition>
+            </definition>
+            <definition lang="de" uuid="be87f552-9624-4dde-8e5e-945c9a92a91a">
+                <designation>Raucherstatus unbekannt</designation>
+                <definition>Unbekannter aktueller oder früherer Genuss von Zigaretten, Zigarren, Pfeife oder Kautabak</definition>
+            </definition>
+            <definition lang="en" uuid="be87f552-9624-4dde-8e5e-945c9a92a91a">
+                <designation>Uncharted smoking habit</designation>
+                <definition>Sample donor's current or former use of cigarettes, cigars, pipe or chewing tobacco uncharted</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>32</identifier>
+        <version>1</version>
+        <element>e54076a6-2b47-4fb3-ae8a-b8a1bd0e504b</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <dataElementGroup uuid="6b64b3ec-bacf-452b-8f1a-d8e275f1a804"/>
+    <scopedIdentifier uuid="94de9af0-8a22-4d28-aafa-250019a8c23c">
+        <definitions>
+            <definition lang="en" uuid="6b64b3ec-bacf-452b-8f1a-d8e275f1a804">
+                <designation>Event</designation>
+                <definition>Anything that happens to the donor</definition>
+            </definition>
+            <definition lang="de" uuid="6b64b3ec-bacf-452b-8f1a-d8e275f1a804">
+                <designation>Klinische Daten</designation>
+                <definition>Erhobene Daten des Donors</definition>
+            </definition>
+        </definitions>
+        <slots/>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>6</identifier>
+        <version>2</version>
+        <element>6b64b3ec-bacf-452b-8f1a-d8e275f1a804</element>
+        <status>RELEASED</status>
+        <sub>4bac2468-cb20-4e8f-a0ac-d23cce3fbe52</sub>
+        <sub>30e38be7-c674-48e8-a69a-6fe1e6976e34</sub>
+        <sub>4ae91575-4993-4897-932c-c1b63b9bdda3</sub>
+        <sub>97a3cd7b-b28d-4ec2-b537-fce5ed661706</sub>
+        <sub>dc94b4a1-5a1e-4d25-a213-d13ed76df089</sub>
+        <sub>ede2555c-7bd5-4ea7-b413-da94d7f07016</sub>
+        <sub>1aee424a-1b89-41bc-99c1-fef1040fa9a9</sub>
+        <sub>f60f7a29-0620-4890-9e26-6cee6969b93f</sub>
+        <sub>cedceedb-b9e5-4ec1-977a-88e7f84f60b0</sub>
+        <sub>ec5e7a4d-65f4-41be-accc-634eb1132cd1</sub>
+        <sub>84df385f-a4c9-452c-85e5-7c9d4d7ea279</sub>
+    </scopedIdentifier>
+    <describedValueDomain uuid="a0870f32-2bfd-4041-acf7-a559d3d02ce9">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="4f2f2ae6-47f3-4bc5-b085-f3518b379f22">
+        <valueDomain>a0870f32-2bfd-4041-acf7-a559d3d02ce9</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="0bde1358-8d40-4823-af3a-94e0c3062c5d">
+        <definitions>
+            <definition lang="de" uuid="4f2f2ae6-47f3-4bc5-b085-f3518b379f22">
+                <designation>Biobank ID</designation>
+                <definition>ggf. Fremd-ID</definition>
+            </definition>
+            <definition lang="en" uuid="4f2f2ae6-47f3-4bc5-b085-f3518b379f22">
+                <designation>Biobank ID</designation>
+                <definition>Possibly foreign ID</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>1</identifier>
+        <version>1</version>
+        <element>4f2f2ae6-47f3-4bc5-b085-f3518b379f22</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="76e8e223-55c9-450f-aa39-b6b97cdac745">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="2d5b49bc-c332-4426-9fcc-2ed142be8214">
+        <valueDomain>76e8e223-55c9-450f-aa39-b6b97cdac745</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="565f9e60-c730-4c8f-8885-b707965ebba3">
+        <definitions>
+            <definition lang="de" uuid="2d5b49bc-c332-4426-9fcc-2ed142be8214">
+                <designation>Leiter</designation>
+                <definition>Name der Biobank Leitung</definition>
+            </definition>
+            <definition lang="en" uuid="2d5b49bc-c332-4426-9fcc-2ed142be8214">
+                <designation>Manager</designation>
+                <definition>Name of biobank manager</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>2</identifier>
+        <version>1</version>
+        <element>2d5b49bc-c332-4426-9fcc-2ed142be8214</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="51550906-cf1a-43ca-ae7f-4942b94e55d7">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="e054f490-dd9e-4eb7-a412-f9ed84de6496">
+        <valueDomain>51550906-cf1a-43ca-ae7f-4942b94e55d7</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="d2d6412b-c86b-4a6d-afb1-aad5040adea2">
+        <definitions>
+            <definition lang="de" uuid="e054f490-dd9e-4eb7-a412-f9ed84de6496">
+                <designation>URL</designation>
+                <definition>Webseite der Biobank</definition>
+            </definition>
+            <definition lang="en" uuid="e054f490-dd9e-4eb7-a412-f9ed84de6496">
+                <designation>URL</designation>
+                <definition>Biobank URL</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>3</identifier>
+        <version>1</version>
+        <element>e054f490-dd9e-4eb7-a412-f9ed84de6496</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <dataElementGroup uuid="06f9332a-e58c-4b51-95fa-bfebbf8c48cd"/>
+    <scopedIdentifier uuid="e049891e-e5e4-4b4d-85a8-51bc929ae5fb">
+        <definitions>
+            <definition lang="de" uuid="06f9332a-e58c-4b51-95fa-bfebbf8c48cd">
+                <designation>Biobank</designation>
+                <definition>Biobank</definition>
+            </definition>
+            <definition lang="en" uuid="06f9332a-e58c-4b51-95fa-bfebbf8c48cd">
+                <designation>Biobank</designation>
+                <definition>Biobank</definition>
+            </definition>
+        </definitions>
+        <slots/>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>1</identifier>
+        <version>1</version>
+        <element>06f9332a-e58c-4b51-95fa-bfebbf8c48cd</element>
+        <status>RELEASED</status>
+        <sub>0bde1358-8d40-4823-af3a-94e0c3062c5d</sub>
+        <sub>565f9e60-c730-4c8f-8885-b707965ebba3</sub>
+        <sub>d2d6412b-c86b-4a6d-afb1-aad5040adea2</sub>
+    </scopedIdentifier>
+    <describedValueDomain uuid="aafbf3b4-8746-48e6-a2a2-2a285701dc71">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="557c6865-d6a3-4cc8-b9ff-cab47d497a88">
+        <valueDomain>aafbf3b4-8746-48e6-a2a2-2a285701dc71</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="e4f4a597-6b74-485e-83da-b761f5d55ec7">
+        <definitions>
+            <definition lang="de" uuid="557c6865-d6a3-4cc8-b9ff-cab47d497a88">
+                <designation>Sammlung ID</designation>
+                <definition>ggf. Fremd-ID</definition>
+            </definition>
+            <definition lang="en" uuid="557c6865-d6a3-4cc8-b9ff-cab47d497a88">
+                <designation>Collection ID</designation>
+                <definition>Possibly foreign ID</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>4</identifier>
+        <version>1</version>
+        <element>557c6865-d6a3-4cc8-b9ff-cab47d497a88</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="a6c569d9-9e37-4a7b-9710-4f9c06767797">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="1b510b5a-8d16-49b7-b225-d7041641741a">
+        <valueDomain>a6c569d9-9e37-4a7b-9710-4f9c06767797</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="a062e97e-cb2b-4f93-b1df-58f3ff9b6ee2">
+        <definitions>
+            <definition lang="de" uuid="1b510b5a-8d16-49b7-b225-d7041641741a">
+                <designation>Name</designation>
+                <definition>Name der Sammlung</definition>
+            </definition>
+            <definition lang="en" uuid="1b510b5a-8d16-49b7-b225-d7041641741a">
+                <designation>Name</designation>
+                <definition>Name of biobank collection</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>5</identifier>
+        <version>1</version>
+        <element>1b510b5a-8d16-49b7-b225-d7041641741a</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="cd1db78d-78c0-4803-86d3-aa10bda783ef">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="aef69d5e-8cb6-49fe-9b54-3ac914a5dd5d">
+        <valueDomain>cd1db78d-78c0-4803-86d3-aa10bda783ef</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="f79e5fa3-646b-45f3-bf32-c8cd27c2f5e0">
+        <definitions>
+            <definition lang="de" uuid="aef69d5e-8cb6-49fe-9b54-3ac914a5dd5d">
+                <designation>Standort</designation>
+                <definition>Standort der Sammlung (Stadt)</definition>
+            </definition>
+            <definition lang="en" uuid="aef69d5e-8cb6-49fe-9b54-3ac914a5dd5d">
+                <designation>Location</designation>
+                <definition>Location of biobank (city)</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>6</identifier>
+        <version>1</version>
+        <element>aef69d5e-8cb6-49fe-9b54-3ac914a5dd5d</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="06f07f12-9dcb-4143-b74a-e1f86a4d4469">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="5ee8b294-4ab1-4735-bc74-43eb8112db90">
+        <valueDomain>06f07f12-9dcb-4143-b74a-e1f86a4d4469</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="1506548c-1719-4076-955e-0d8e46c2e636">
+        <definitions>
+            <definition lang="de" uuid="5ee8b294-4ab1-4735-bc74-43eb8112db90">
+                <designation>Kontakt Name</designation>
+                <definition>Name der Person, die bei Datenqualitätsfragen kontaktiert werden soll</definition>
+            </definition>
+            <definition lang="en" uuid="5ee8b294-4ab1-4735-bc74-43eb8112db90">
+                <designation>Contact name</designation>
+                <definition>Name of person to be contacted concerning data quality</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>7</identifier>
+        <version>1</version>
+        <element>5ee8b294-4ab1-4735-bc74-43eb8112db90</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="608b3924-1b30-4f6c-b4c4-79f43e4c31c5">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="a175f6a4-d88d-4080-ac5e-dc9b193098d5">
+        <valueDomain>608b3924-1b30-4f6c-b4c4-79f43e4c31c5</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="ae69eff4-0f69-4b68-88a2-f2cf54d6db8f">
+        <definitions>
+            <definition lang="de" uuid="a175f6a4-d88d-4080-ac5e-dc9b193098d5">
+                <designation>Kontakt Telefon</designation>
+                <definition>Telefonnummer der Person, die bei Datenqualitätsfragen kontaktiert werden soll</definition>
+            </definition>
+            <definition lang="en" uuid="a175f6a4-d88d-4080-ac5e-dc9b193098d5">
+                <designation>Contact phone</designation>
+                <definition>Phone number of person to be contacted concerning data quality</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>8</identifier>
+        <version>1</version>
+        <element>a175f6a4-d88d-4080-ac5e-dc9b193098d5</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="38de7c51-0797-46d3-a241-3126ff93d26e">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="c7600392-d87f-4e93-9545-1c8630cf4726">
+        <valueDomain>38de7c51-0797-46d3-a241-3126ff93d26e</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="8f9dd590-b001-4b58-b693-0b4bfebc8978">
+        <definitions>
+            <definition lang="de" uuid="c7600392-d87f-4e93-9545-1c8630cf4726">
+                <designation>Kontakt Mail</designation>
+                <definition>Mailadresse der Person, die bei Datenqualitätsfragen kontaktiert werden soll</definition>
+            </definition>
+            <definition lang="en" uuid="c7600392-d87f-4e93-9545-1c8630cf4726">
+                <designation>Contact mail</designation>
+                <definition>Mailing address of person to be contacted concerning data quality</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>9</identifier>
+        <version>1</version>
+        <element>c7600392-d87f-4e93-9545-1c8630cf4726</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="565c3552-1382-4e94-b4f9-18e958941c07">
+        <format>0&lt;=x&lt;=1000000</format>
+        <datatype>INTEGER</datatype>
+        <maxCharacters>0</maxCharacters>
+        <unitOfMeasure></unitOfMeasure>
+        <description>0&lt;=x&lt;=1000000</description>
+        <validationType>INTEGERRANGE</validationType>
+        <validationData>0&lt;=x&lt;=1000000</validationData>
+    </describedValueDomain>
+    <dataElement uuid="aadc8f5b-e9eb-4e3b-9c15-119e70950295">
+        <valueDomain>565c3552-1382-4e94-b4f9-18e958941c07</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="dbf34bf4-ab67-446f-948d-0f894343b241">
+        <definitions>
+            <definition lang="de" uuid="aadc8f5b-e9eb-4e3b-9c15-119e70950295">
+                <designation>Probenanzahl</designation>
+                <definition>Anzahl der gesamten Proben innerhalb o.g. Sammlung</definition>
+            </definition>
+            <definition lang="en" uuid="aadc8f5b-e9eb-4e3b-9c15-119e70950295">
+                <designation>Number of samples</designation>
+                <definition>Total number of samples per collection</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>10</identifier>
+        <version>1</version>
+        <element>aadc8f5b-e9eb-4e3b-9c15-119e70950295</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <dataElementGroup uuid="6ebe7055-0688-4fd3-bb14-24e98e6311d2"/>
+    <scopedIdentifier uuid="b85e7fe7-6020-4fbd-a5ca-8bf6436189b4">
+        <definitions>
+            <definition lang="de" uuid="6ebe7055-0688-4fd3-bb14-24e98e6311d2">
+                <designation>Sammlung</designation>
+                <definition>Name der Sammlung</definition>
+            </definition>
+            <definition lang="en" uuid="6ebe7055-0688-4fd3-bb14-24e98e6311d2">
+                <designation>Collection</designation>
+                <definition>Name of collection</definition>
+            </definition>
+        </definitions>
+        <slots/>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>2</identifier>
+        <version>1</version>
+        <element>6ebe7055-0688-4fd3-bb14-24e98e6311d2</element>
+        <status>RELEASED</status>
+        <sub>e4f4a597-6b74-485e-83da-b761f5d55ec7</sub>
+        <sub>a062e97e-cb2b-4f93-b1df-58f3ff9b6ee2</sub>
+        <sub>f79e5fa3-646b-45f3-bf32-c8cd27c2f5e0</sub>
+        <sub>1506548c-1719-4076-955e-0d8e46c2e636</sub>
+        <sub>ae69eff4-0f69-4b68-88a2-f2cf54d6db8f</sub>
+        <sub>8f9dd590-b001-4b58-b693-0b4bfebc8978</sub>
+        <sub>dbf34bf4-ab67-446f-948d-0f894343b241</sub>
+    </scopedIdentifier>
+    <describedValueDomain uuid="e7f6208b-6026-4698-8a4b-fbfc29fcc12a">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="155cc206-5a80-4778-8fd0-060a85c03e4e">
+        <valueDomain>e7f6208b-6026-4698-8a4b-fbfc29fcc12a</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="2e1aadd3-7b90-4b4d-98ee-b735280fbb97">
+        <definitions>
+            <definition lang="de" uuid="155cc206-5a80-4778-8fd0-060a85c03e4e">
+                <designation>Proben ID</designation>
+                <definition>ggf. Fremd-ID</definition>
+            </definition>
+            <definition lang="en" uuid="155cc206-5a80-4778-8fd0-060a85c03e4e">
+                <designation>Sample ID</designation>
+                <definition>Possibly foreign ID</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>12</identifier>
+        <version>1</version>
+        <element>155cc206-5a80-4778-8fd0-060a85c03e4e</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="acb858d0-1e2b-4c93-868f-3343f49d16b3">
+        <format>DD.MM.YYYY</format>
+        <datatype>DATE</datatype>
+        <maxCharacters>10</maxCharacters>
+        <description>DD.MM.YYYY</description>
+        <validationType>DATE</validationType>
+        <validationData>DIN_5008_WITH_DAYS</validationData>
+    </describedValueDomain>
+    <dataElement uuid="8de83289-aa6e-4b63-a640-c05e103e816f">
+        <valueDomain>acb858d0-1e2b-4c93-868f-3343f49d16b3</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="9264c7e8-ea38-4938-9ef3-87667824c790">
+        <definitions>
+            <definition lang="de" uuid="8de83289-aa6e-4b63-a640-c05e103e816f">
+                <designation>Entnahmedatum</designation>
+                <definition>Datum der Probenentnahme</definition>
+            </definition>
+            <definition lang="en" uuid="8de83289-aa6e-4b63-a640-c05e103e816f">
+                <designation>Sampling date</designation>
+                <definition>Date of sampling</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>13</identifier>
+        <version>1</version>
+        <element>8de83289-aa6e-4b63-a640-c05e103e816f</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="55a6cb30-14fe-4c5c-9d18-0ce8aadc2092">
+        <format>DD.MM.YYYY hh:mm:ss</format>
+        <datatype>DATETIME</datatype>
+        <maxCharacters>19</maxCharacters>
+        <description>DD.MM.YYYY hh:mm:ss</description>
+        <validationType>DATETIME</validationType>
+        <validationData>DIN_5008_WITH_DAYS; HOURS_24_WITH_SECONDS</validationData>
+    </describedValueDomain>
+    <dataElement uuid="de6bdd6c-b18e-4e6b-b8e0-b82227ad6857">
+        <valueDomain>55a6cb30-14fe-4c5c-9d18-0ce8aadc2092</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="fdb51b55-920d-47ae-bfd7-23a77f003ece">
+        <definitions>
+            <definition lang="de" uuid="de6bdd6c-b18e-4e6b-b8e0-b82227ad6857">
+                <designation>Entnahmeuhrzeit</designation>
+                <definition>Uhrzeit der Probenentnahme</definition>
+            </definition>
+            <definition lang="en" uuid="de6bdd6c-b18e-4e6b-b8e0-b82227ad6857">
+                <designation>Sampling time</designation>
+                <definition>Time of Sampling</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>14</identifier>
+        <version>1</version>
+        <element>de6bdd6c-b18e-4e6b-b8e0-b82227ad6857</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="68c58c70-aaae-4c1c-868c-2c28c14b1dc9">
+        <format>0&lt;=x&lt;=120</format>
+        <datatype>INTEGER</datatype>
+        <maxCharacters>0</maxCharacters>
+        <unitOfMeasure></unitOfMeasure>
+        <description>0&lt;=x&lt;=120</description>
+        <validationType>INTEGERRANGE</validationType>
+        <validationData>0&lt;=x&lt;=120</validationData>
+    </describedValueDomain>
+    <dataElement uuid="39e3d5ae-954d-4007-bfb8-de106d3ae77c">
+        <valueDomain>68c58c70-aaae-4c1c-868c-2c28c14b1dc9</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="c455391b-a5f8-45e0-ad08-7c9d4e257f7e">
+        <definitions>
+            <definition lang="de" uuid="39e3d5ae-954d-4007-bfb8-de106d3ae77c">
+                <designation>Alter des Spenders</designation>
+                <definition>Alter des Spenders bei Probenentnahme (automatisch errechnet)</definition>
+            </definition>
+            <definition lang="en" uuid="39e3d5ae-954d-4007-bfb8-de106d3ae77c">
+                <designation>Donor age</designation>
+                <definition>Age of donor at time of sampling (calculated automatically)</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>15</identifier>
+        <version>1</version>
+        <element>39e3d5ae-954d-4007-bfb8-de106d3ae77c</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <permissibleValue valueDomain="52ab5bb8-3aea-4a1b-86d3-acc97dcbd577" uuid="44cc040f-f2e8-4bb8-b17a-d475fb101ee8">
+        <value>tissue_formalin</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="52ab5bb8-3aea-4a1b-86d3-acc97dcbd577" uuid="1fd69f28-6f09-43ac-a91d-d111425b9611">
+        <value>tissue_frozen</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="52ab5bb8-3aea-4a1b-86d3-acc97dcbd577" uuid="de37d9a1-6977-4cf7-b4c0-465fb75119d4">
+        <value>tissue_PAX_or_similar</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="52ab5bb8-3aea-4a1b-86d3-acc97dcbd577" uuid="13cdf7cd-08eb-48a4-822f-e7d5dad36cf1">
+        <value>tissue_other</value>
+    </permissibleValue>
+    <enumeratedValueDomain uuid="52ab5bb8-3aea-4a1b-86d3-acc97dcbd577">
+        <format>enumerated</format>
+        <datatype>enumerated</datatype>
+        <maxCharacters>0</maxCharacters>
+    </enumeratedValueDomain>
+    <dataElement uuid="db0ec6e8-0da6-4cae-828b-d0d07803f74c">
+        <valueDomain>52ab5bb8-3aea-4a1b-86d3-acc97dcbd577</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="8ce3d237-4d9e-4203-a8b7-7be979a0976a">
+        <definitions>
+            <definition lang="de" uuid="db0ec6e8-0da6-4cae-828b-d0d07803f74c">
+                <designation>Materialart Gewebe</designation>
+                <definition>In welcher Form die Gewebeprobe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="db0ec6e8-0da6-4cae-828b-d0d07803f74c">
+                <designation>Sample type tissue</designation>
+                <definition>Storage of the tissue sample</definition>
+            </definition>
+            <definition lang="de" uuid="44cc040f-f2e8-4bb8-b17a-d475fb101ee8">
+                <designation>Gewebe formalinfixiert</designation>
+                <definition>In welcher Form die Gewebeprobe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="44cc040f-f2e8-4bb8-b17a-d475fb101ee8">
+                <designation>Tissue stored in formalin</designation>
+                <definition>Storage of the tissue sample</definition>
+            </definition>
+            <definition lang="de" uuid="1fd69f28-6f09-43ac-a91d-d111425b9611">
+                <designation>Gewebe schockgefroren</designation>
+                <definition>In welcher Form die Gewebeprobe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="1fd69f28-6f09-43ac-a91d-d111425b9611">
+                <designation>Tissue snap frozen</designation>
+                <definition>Storage of the tissue sample</definition>
+            </definition>
+            <definition lang="de" uuid="de37d9a1-6977-4cf7-b4c0-465fb75119d4">
+                <designation>Gewebe in PAXgene oder ähnlicher Aufbewahrung</designation>
+                <definition>In welcher Form die Gewebeprobe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="de37d9a1-6977-4cf7-b4c0-465fb75119d4">
+                <designation>Tissue stored in PAXgene or similarly</designation>
+                <definition>Storage of the tissue sample</definition>
+            </definition>
+            <definition lang="de" uuid="13cdf7cd-08eb-48a4-822f-e7d5dad36cf1">
+                <designation>Gewebe in anderer Aufbewahrung</designation>
+                <definition>In welcher Form die Gewebeprobe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="13cdf7cd-08eb-48a4-822f-e7d5dad36cf1">
+                <designation>Other tissue storage</designation>
+                <definition>Storage of the tissue sample</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>16</identifier>
+        <version>1</version>
+        <element>db0ec6e8-0da6-4cae-828b-d0d07803f74c</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <permissibleValue valueDomain="49ce8af9-4834-4764-9c14-f797330a9d3e" uuid="aa803ccf-bad8-4f91-a56c-00ee10061148">
+        <value>whole_blood-EDTA</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="49ce8af9-4834-4764-9c14-f797330a9d3e" uuid="63cc5200-3493-4d1f-9972-c2b3332bd8f7">
+        <value>whole_blood_stabilised</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="49ce8af9-4834-4764-9c14-f797330a9d3e" uuid="19ce4e01-2466-4640-b34d-f0fc73f748a8">
+        <value>plasma-EDTA</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="49ce8af9-4834-4764-9c14-f797330a9d3e" uuid="21987756-ef39-41ff-989f-e7ce70467a9c">
+        <value>plasma-citrate</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="49ce8af9-4834-4764-9c14-f797330a9d3e" uuid="c78cc7ec-4bfa-4de1-bb2b-3865c62b4f00">
+        <value>plasma_stabilised</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="49ce8af9-4834-4764-9c14-f797330a9d3e" uuid="2a4ad7ce-465b-488a-a595-a4a080b1686a">
+        <value>serum</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="49ce8af9-4834-4764-9c14-f797330a9d3e" uuid="5db5073c-91b0-45d5-a68f-4964886bcafc">
+        <value>peripheral_blood_cells</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="49ce8af9-4834-4764-9c14-f797330a9d3e" uuid="3f3e34b2-e1da-49f8-b41a-07be2d131777">
+        <value>bone_marrow</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="49ce8af9-4834-4764-9c14-f797330a9d3e" uuid="e69bc5c5-bb2d-4813-be56-79214c75599f">
+        <value>liquor/CSF</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="49ce8af9-4834-4764-9c14-f797330a9d3e" uuid="07aabc1b-6e86-42fc-82cd-8f3a7c6866b5">
+        <value>ascites</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="49ce8af9-4834-4764-9c14-f797330a9d3e" uuid="6e9c72a6-39ed-4504-8c5e-7b3e90407286">
+        <value>saliva</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="49ce8af9-4834-4764-9c14-f797330a9d3e" uuid="7ef94d6a-b03d-4ede-9e15-c7d24812fc94">
+        <value>urine_spontaneous</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="49ce8af9-4834-4764-9c14-f797330a9d3e" uuid="39d9ed86-761f-4e95-9b17-8616eadd3eae">
+        <value>urine_cumulative</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="49ce8af9-4834-4764-9c14-f797330a9d3e" uuid="c5bfc934-5fdb-4f6e-a035-f5df43b7c654">
+        <value>faeces</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="49ce8af9-4834-4764-9c14-f797330a9d3e" uuid="1d0e7533-3857-4427-a037-d348f9113f90">
+        <value>DNA</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="49ce8af9-4834-4764-9c14-f797330a9d3e" uuid="b0caf62e-4fed-4934-98ed-a007eb29f89f">
+        <value>cfDNA</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="49ce8af9-4834-4764-9c14-f797330a9d3e" uuid="4a0931ce-9a48-46d4-95e6-ef228abdfc21">
+        <value>RNA</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="49ce8af9-4834-4764-9c14-f797330a9d3e" uuid="005eb1f9-2423-4032-94a6-a1b3432f2de5">
+        <value>liquid_biosamples_other</value>
+    </permissibleValue>
+    <enumeratedValueDomain uuid="49ce8af9-4834-4764-9c14-f797330a9d3e">
+        <format>enumerated</format>
+        <datatype>enumerated</datatype>
+        <maxCharacters>0</maxCharacters>
+    </enumeratedValueDomain>
+    <dataElement uuid="7168cf59-c8aa-4b7e-9a96-01057f3b3f5f">
+        <valueDomain>49ce8af9-4834-4764-9c14-f797330a9d3e</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="0bc9235e-91bb-4dad-82d0-2c89e860b5bf">
+        <definitions>
+            <definition lang="de" uuid="7168cf59-c8aa-4b7e-9a96-01057f3b3f5f">
+                <designation>Materialart Flüssig</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="7168cf59-c8aa-4b7e-9a96-01057f3b3f5f">
+                <designation>Sample type liquid</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="aa803ccf-bad8-4f91-a56c-00ee10061148">
+                <designation>Vollblut-EDTA</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="aa803ccf-bad8-4f91-a56c-00ee10061148">
+                <designation>Whole blood-EDTA</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="63cc5200-3493-4d1f-9972-c2b3332bd8f7">
+                <designation>Vollblut stabilisiert</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="63cc5200-3493-4d1f-9972-c2b3332bd8f7">
+                <designation>Whole blood stabilised</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="19ce4e01-2466-4640-b34d-f0fc73f748a8">
+                <designation>Plasma-EDTA</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="19ce4e01-2466-4640-b34d-f0fc73f748a8">
+                <designation>Plasma-EDTA</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="21987756-ef39-41ff-989f-e7ce70467a9c">
+                <designation>Plasma-Citrat</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="21987756-ef39-41ff-989f-e7ce70467a9c">
+                <designation>Plasma-Citrate</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="c78cc7ec-4bfa-4de1-bb2b-3865c62b4f00">
+                <designation>Plasma stabilisiert</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="c78cc7ec-4bfa-4de1-bb2b-3865c62b4f00">
+                <designation>Plasma stabilised</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="2a4ad7ce-465b-488a-a595-a4a080b1686a">
+                <designation>Serum</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="2a4ad7ce-465b-488a-a595-a4a080b1686a">
+                <designation>Serum</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="5db5073c-91b0-45d5-a68f-4964886bcafc">
+                <designation>Periphere Blutzellen</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="5db5073c-91b0-45d5-a68f-4964886bcafc">
+                <designation>Peripheral blood cells</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="3f3e34b2-e1da-49f8-b41a-07be2d131777">
+                <designation>Knochenmark</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="3f3e34b2-e1da-49f8-b41a-07be2d131777">
+                <designation>Bone marrow</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="e69bc5c5-bb2d-4813-be56-79214c75599f">
+                <designation>Liquor/CSF</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="e69bc5c5-bb2d-4813-be56-79214c75599f">
+                <designation>Liquor/CSF</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="07aabc1b-6e86-42fc-82cd-8f3a7c6866b5">
+                <designation>Aszites</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="07aabc1b-6e86-42fc-82cd-8f3a7c6866b5">
+                <designation>Ascites</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="6e9c72a6-39ed-4504-8c5e-7b3e90407286">
+                <designation>Speichel</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="6e9c72a6-39ed-4504-8c5e-7b3e90407286">
+                <designation>Saliva</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="7ef94d6a-b03d-4ede-9e15-c7d24812fc94">
+                <designation>Spontanurin</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="7ef94d6a-b03d-4ede-9e15-c7d24812fc94">
+                <designation>Urine spontaneous</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="39d9ed86-761f-4e95-9b17-8616eadd3eae">
+                <designation>Sammelurin</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="39d9ed86-761f-4e95-9b17-8616eadd3eae">
+                <designation>Urine cumulative</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="c5bfc934-5fdb-4f6e-a035-f5df43b7c654">
+                <designation>Stuhl</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="c5bfc934-5fdb-4f6e-a035-f5df43b7c654">
+                <designation>Faeces</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="1d0e7533-3857-4427-a037-d348f9113f90">
+                <designation>DNA</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="1d0e7533-3857-4427-a037-d348f9113f90">
+                <designation>DNA</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="b0caf62e-4fed-4934-98ed-a007eb29f89f">
+                <designation>cfDNA</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="b0caf62e-4fed-4934-98ed-a007eb29f89f">
+                <designation>cfDNA</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="4a0931ce-9a48-46d4-95e6-ef228abdfc21">
+                <designation>RNA</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="4a0931ce-9a48-46d4-95e6-ef228abdfc21">
+                <designation>RNA</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="005eb1f9-2423-4032-94a6-a1b3432f2de5">
+                <designation>Andere flüssige Bioproben/Aufbewahrung</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="005eb1f9-2423-4032-94a6-a1b3432f2de5">
+                <designation>Other liquid biosamples/storage</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>17</identifier>
+        <version>1</version>
+        <element>7168cf59-c8aa-4b7e-9a96-01057f3b3f5f</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <permissibleValue valueDomain="3ea38f32-3df2-4702-a36d-98ce0feb374e" uuid="5d1f09f4-dbc9-46dd-af69-24b05b6c177b">
+        <value>plasma-lithium-heparin</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="3ea38f32-3df2-4702-a36d-98ce0feb374e" uuid="620e92bb-605f-4943-8a86-72e3964a5022">
+        <value>RT</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="3ea38f32-3df2-4702-a36d-98ce0feb374e" uuid="458ef444-d499-4ebd-907d-f734f76c7876">
+        <value>two_to_ten_degrees</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="3ea38f32-3df2-4702-a36d-98ce0feb374e" uuid="0f46aa5d-0def-41b0-a546-85bba25527b6">
+        <value>four_degrees</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="3ea38f32-3df2-4702-a36d-98ce0feb374e" uuid="1178887e-a523-4a10-97b8-2060c74fb2d8">
+        <value>minus_eighteen_to_minus_thirty-five_degrees</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="3ea38f32-3df2-4702-a36d-98ce0feb374e" uuid="f34c07cf-0708-48e8-b5e5-931fe4baa1ad">
+        <value>minus_sixty_to_minus_eighty_five_degrees</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="3ea38f32-3df2-4702-a36d-98ce0feb374e" uuid="b9bc1129-0697-43db-a41e-5ddb89c8d0d7">
+        <value>gaseous_nitrogen</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="3ea38f32-3df2-4702-a36d-98ce0feb374e" uuid="7a0936ba-55e1-4d5b-b4c7-00e1252a6fba">
+        <value>liquid_nitrogene</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="3ea38f32-3df2-4702-a36d-98ce0feb374e" uuid="1738b725-a00a-43f1-8ea5-4d88e1f53363">
+        <value>storage_temperature_other</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="3ea38f32-3df2-4702-a36d-98ce0feb374e" uuid="59794583-a68f-4108-bab4-61a3d891f7b2">
+        <value>storage_temperature_uncharted</value>
+    </permissibleValue>
+    <enumeratedValueDomain uuid="3ea38f32-3df2-4702-a36d-98ce0feb374e">
+        <format>enumerated</format>
+        <datatype>enumerated</datatype>
+        <maxCharacters>0</maxCharacters>
+    </enumeratedValueDomain>
+    <dataElement uuid="8660efb9-981a-4ff1-92f7-e99724d71ac1">
+        <valueDomain>3ea38f32-3df2-4702-a36d-98ce0feb374e</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="3bbac215-541d-4112-8a23-8159e21b53df">
+        <definitions>
+            <definition lang="de" uuid="8660efb9-981a-4ff1-92f7-e99724d71ac1">
+                <designation>Aufbewahrungstemperatur</designation>
+                <definition>Temperatur, bei der die Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="8660efb9-981a-4ff1-92f7-e99724d71ac1">
+                <designation>Storage temperature</designation>
+                <definition>Temperature of sample storage</definition>
+            </definition>
+            <definition lang="de" uuid="5d1f09f4-dbc9-46dd-af69-24b05b6c177b">
+                <designation>Plasma-Lithium-Heparin</designation>
+                <definition>In welcher Form die Flüssig-Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="5d1f09f4-dbc9-46dd-af69-24b05b6c177b">
+                <designation>Plasma-Lithium-Heparin</designation>
+                <definition>Storage of the liquid sample</definition>
+            </definition>
+            <definition lang="de" uuid="620e92bb-605f-4943-8a86-72e3964a5022">
+                <designation>RT</designation>
+                <definition>Temperatur, bei der die Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="620e92bb-605f-4943-8a86-72e3964a5022">
+                <designation>RT</designation>
+                <definition>Temperature of sample storage</definition>
+            </definition>
+            <definition lang="de" uuid="458ef444-d499-4ebd-907d-f734f76c7876">
+                <designation>2°C bis 10°C</designation>
+                <definition>Temperatur, bei der die Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="458ef444-d499-4ebd-907d-f734f76c7876">
+                <designation>2°C to 10°C</designation>
+                <definition>Temperature of sample storage</definition>
+            </definition>
+            <definition lang="de" uuid="0f46aa5d-0def-41b0-a546-85bba25527b6">
+                <designation>4°C</designation>
+                <definition>Temperatur, bei der die Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="0f46aa5d-0def-41b0-a546-85bba25527b6">
+                <designation>4°C</designation>
+                <definition>Temperature of sample storage</definition>
+            </definition>
+            <definition lang="de" uuid="1178887e-a523-4a10-97b8-2060c74fb2d8">
+                <designation>Minus 18°C bis minus 35°C</designation>
+                <definition>Temperatur, bei der die Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="1178887e-a523-4a10-97b8-2060c74fb2d8">
+                <designation>Minus 18°C to minus 35°C</designation>
+                <definition>Temperature of sample storage</definition>
+            </definition>
+            <definition lang="de" uuid="f34c07cf-0708-48e8-b5e5-931fe4baa1ad">
+                <designation>Minus 60°C bis minus 85°C</designation>
+                <definition>Temperatur, bei der die Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="f34c07cf-0708-48e8-b5e5-931fe4baa1ad">
+                <designation>Minus 60°C to minus 85°C</designation>
+                <definition>Temperature of sample storage</definition>
+            </definition>
+            <definition lang="de" uuid="b9bc1129-0697-43db-a41e-5ddb89c8d0d7">
+                <designation>Gasförmiger Stickstoff</designation>
+                <definition>Temperatur, bei der die Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="b9bc1129-0697-43db-a41e-5ddb89c8d0d7">
+                <designation>Gaseous nitrogen</designation>
+                <definition>Temperature of sample storage</definition>
+            </definition>
+            <definition lang="de" uuid="7a0936ba-55e1-4d5b-b4c7-00e1252a6fba">
+                <designation>Flüssiger Stickstoff</designation>
+                <definition>Temperatur, bei der die Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="7a0936ba-55e1-4d5b-b4c7-00e1252a6fba">
+                <designation>Liquid nitrogen</designation>
+                <definition>Temperature of sample storage</definition>
+            </definition>
+            <definition lang="de" uuid="1738b725-a00a-43f1-8ea5-4d88e1f53363">
+                <designation>Andere Aufbewahrungstemperatur</designation>
+                <definition>Temperatur, bei der die Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="1738b725-a00a-43f1-8ea5-4d88e1f53363">
+                <designation>Other storage temperature</designation>
+                <definition>Temperature of sample storage</definition>
+            </definition>
+            <definition lang="de" uuid="59794583-a68f-4108-bab4-61a3d891f7b2">
+                <designation>Unbekannte Aufbewahrungstemperatur</designation>
+                <definition>Temperatur, bei der die Probe aufbewahrt wird</definition>
+            </definition>
+            <definition lang="en" uuid="59794583-a68f-4108-bab4-61a3d891f7b2">
+                <designation>Uncharted storage temperature</designation>
+                <definition>Temperature of sample storage</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>18</identifier>
+        <version>1</version>
+        <element>8660efb9-981a-4ff1-92f7-e99724d71ac1</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <permissibleValue valueDomain="259f0387-4071-4e0c-86fe-c87c10cb54ef" uuid="1b1fcdfe-a7c5-4795-ade9-59ace9fba5fb">
+        <value>sample_analysis_yes</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="259f0387-4071-4e0c-86fe-c87c10cb54ef" uuid="325ce387-c331-40d7-a145-f403eeea3212">
+        <value>sample_analysis_no</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="259f0387-4071-4e0c-86fe-c87c10cb54ef" uuid="90c1820d-d26e-44a7-946b-7efdbc3abe01">
+        <value>sample_analysis_uncharted</value>
+    </permissibleValue>
+    <enumeratedValueDomain uuid="259f0387-4071-4e0c-86fe-c87c10cb54ef">
+        <format>enumerated</format>
+        <datatype>enumerated</datatype>
+        <maxCharacters>0</maxCharacters>
+    </enumeratedValueDomain>
+    <dataElement uuid="66b5b03e-0a9a-4b0c-80ea-2200eccafd65">
+        <valueDomain>259f0387-4071-4e0c-86fe-c87c10cb54ef</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="1fb76b41-3f4b-496b-aa4a-65e1dd50be5b">
+        <definitions>
+            <definition lang="de" uuid="66b5b03e-0a9a-4b0c-80ea-2200eccafd65">
+                <designation>Probenanalyse</designation>
+                <definition>Ob die Biobank die Probe nur vorhält, oder auch analysiert</definition>
+            </definition>
+            <definition lang="en" uuid="66b5b03e-0a9a-4b0c-80ea-2200eccafd65">
+                <designation>Sample analysis</designation>
+                <definition>Whether the sample is just stored or is also analysed by the biobank or a pathologist</definition>
+            </definition>
+            <definition lang="de" uuid="1b1fcdfe-a7c5-4795-ade9-59ace9fba5fb">
+                <designation>Probenanalyse</designation>
+                <definition>Ob die Biobank die Probe nur vorhält, oder auch analysiert</definition>
+            </definition>
+            <definition lang="en" uuid="1b1fcdfe-a7c5-4795-ade9-59ace9fba5fb">
+                <designation>Sample analysis</designation>
+                <definition>Whether the sample is just stored or is also analysed by the biobank or a pathologist</definition>
+            </definition>
+            <definition lang="de" uuid="325ce387-c331-40d7-a145-f403eeea3212">
+                <designation>Keine Probenanalyse</designation>
+                <definition>Ob die Biobank die Probe nur vorhält, oder auch analysiert</definition>
+            </definition>
+            <definition lang="en" uuid="325ce387-c331-40d7-a145-f403eeea3212">
+                <designation>No sample analysis</designation>
+                <definition>Whether the sample is just stored or is also analysed by the biobank or a pathologist</definition>
+            </definition>
+            <definition lang="de" uuid="90c1820d-d26e-44a7-946b-7efdbc3abe01">
+                <designation>Unbekannt ob Proben analysiert werden</designation>
+                <definition>Ob die Biobank die Probe nur vorhält, oder auch analysiert</definition>
+            </definition>
+            <definition lang="en" uuid="90c1820d-d26e-44a7-946b-7efdbc3abe01">
+                <designation>Uncharted whether samples are analysed or not</designation>
+                <definition>Whether the sample is just stored or is also analysed by the biobank or a pathologist</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>19</identifier>
+        <version>1</version>
+        <element>66b5b03e-0a9a-4b0c-80ea-2200eccafd65</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <dataElementGroup uuid="2b4de137-ac16-4dc6-a456-a74de7b22092"/>
+    <scopedIdentifier uuid="c333910f-5bba-40d3-8612-831300fa9adf">
+        <definitions>
+            <definition lang="de" uuid="2b4de137-ac16-4dc6-a456-a74de7b22092">
+                <designation>Probe</designation>
+                <definition>Bioprobe</definition>
+            </definition>
+            <definition lang="en" uuid="2b4de137-ac16-4dc6-a456-a74de7b22092">
+                <designation>Sample</designation>
+                <definition>Biological sample</definition>
+            </definition>
+        </definitions>
+        <slots/>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>3</identifier>
+        <version>1</version>
+        <element>2b4de137-ac16-4dc6-a456-a74de7b22092</element>
+        <status>RELEASED</status>
+        <sub>2e1aadd3-7b90-4b4d-98ee-b735280fbb97</sub>
+        <sub>9264c7e8-ea38-4938-9ef3-87667824c790</sub>
+        <sub>fdb51b55-920d-47ae-bfd7-23a77f003ece</sub>
+        <sub>c455391b-a5f8-45e0-ad08-7c9d4e257f7e</sub>
+        <sub>8ce3d237-4d9e-4203-a8b7-7be979a0976a</sub>
+        <sub>0bc9235e-91bb-4dad-82d0-2c89e860b5bf</sub>
+        <sub>3bbac215-541d-4112-8a23-8159e21b53df</sub>
+        <sub>1fb76b41-3f4b-496b-aa4a-65e1dd50be5b</sub>
+    </scopedIdentifier>
+    <describedValueDomain uuid="b0bbec81-3ffa-4ef4-aea0-9986488b084f">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="824cd9f6-a321-4f0d-9c2d-f1991a943295">
+        <valueDomain>b0bbec81-3ffa-4ef4-aea0-9986488b084f</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="fb5f55f9-d54b-4e7f-a15c-bc7498b2b880">
+        <definitions>
+            <definition lang="de" uuid="824cd9f6-a321-4f0d-9c2d-f1991a943295">
+                <designation>Proben Kontext ID</designation>
+                <definition>ggf. Fremd-ID</definition>
+            </definition>
+            <definition lang="en" uuid="824cd9f6-a321-4f0d-9c2d-f1991a943295">
+                <designation>Sample Context ID</designation>
+                <definition>Possibly foreign ID</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>20</identifier>
+        <version>1</version>
+        <element>824cd9f6-a321-4f0d-9c2d-f1991a943295</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <permissibleValue valueDomain="545eaa03-2708-4109-8bbf-c05f2073b577" uuid="8652e185-7ca5-4eab-8f98-3683f23101ff">
+        <value>healthy_tissue</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="545eaa03-2708-4109-8bbf-c05f2073b577" uuid="ddc0393b-6fb9-4767-9214-de0065e0bc54">
+        <value>tumor_tissue</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="545eaa03-2708-4109-8bbf-c05f2073b577" uuid="245eaf39-86e2-4297-8c43-86e31e2c963f">
+        <value>fatty_liver</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="545eaa03-2708-4109-8bbf-c05f2073b577" uuid="f4759955-61d5-4deb-97ae-f095820b5e7a">
+        <value>atopic_eczema</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="545eaa03-2708-4109-8bbf-c05f2073b577" uuid="487cf200-3ba6-400d-9866-82aeb1456be2">
+        <value>broken_bone</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="545eaa03-2708-4109-8bbf-c05f2073b577" uuid="a1f3c431-4419-4d26-a79f-dd844a52eb73">
+        <value>myopathic_muscle</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="545eaa03-2708-4109-8bbf-c05f2073b577" uuid="7544fbf0-d37b-42fa-80b3-90a90dd9ef9f">
+        <value>arthritic_joint</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="545eaa03-2708-4109-8bbf-c05f2073b577" uuid="fed2d989-4a68-4c73-b9cd-b4e703f415de">
+        <value>gastritic_stomach</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="545eaa03-2708-4109-8bbf-c05f2073b577" uuid="d76d9232-8ff0-4ffc-be87-d0e39fdc0451">
+        <value>atelektatic_pleura</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="545eaa03-2708-4109-8bbf-c05f2073b577" uuid="7b471762-5939-4509-adb8-4f25a530ae61">
+        <value>asthmatic_bronchia</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="545eaa03-2708-4109-8bbf-c05f2073b577" uuid="01ce0044-95db-4e80-a510-2dd7f33ff022">
+        <value>scarred_kidney</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="545eaa03-2708-4109-8bbf-c05f2073b577" uuid="ba9e2a82-5945-4bf1-92d8-a53204446f34">
+        <value>iodine_deficient_thyroid</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="545eaa03-2708-4109-8bbf-c05f2073b577" uuid="7f25ad6e-660d-42cf-a99c-478eabf7974d">
+        <value>varicosevein</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="545eaa03-2708-4109-8bbf-c05f2073b577" uuid="f4de5fd8-6314-4f7e-8e34-8791fb4f4ec3">
+        <value>necrotic_nerve_tissue</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="545eaa03-2708-4109-8bbf-c05f2073b577" uuid="e1f6b3c9-0975-41f4-b28e-d04cee5fefa3">
+        <value>konjunctivitic_tissue</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="545eaa03-2708-4109-8bbf-c05f2073b577" uuid="5848bb3f-46a8-4272-8f83-6d5a77441ed1">
+        <value>liquid_sample_context</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="545eaa03-2708-4109-8bbf-c05f2073b577" uuid="9c8fc1d5-b7ab-4094-bc34-d014343b3b1c">
+        <value>sample_context_other</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="545eaa03-2708-4109-8bbf-c05f2073b577" uuid="8d277e8c-f3e6-49e6-b26d-9c7e1e03d5f0">
+        <value>sample_context_uncharted</value>
+    </permissibleValue>
+    <enumeratedValueDomain uuid="545eaa03-2708-4109-8bbf-c05f2073b577">
+        <format>enumerated</format>
+        <datatype>enumerated</datatype>
+        <maxCharacters>0</maxCharacters>
+    </enumeratedValueDomain>
+    <dataElement uuid="29587504-cd3a-45f9-8378-c56641a83f84">
+        <valueDomain>545eaa03-2708-4109-8bbf-c05f2073b577</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="90c27eaa-1059-4cd9-8c9d-10cd8d87b650">
+        <definitions>
+            <definition lang="de" uuid="29587504-cd3a-45f9-8378-c56641a83f84">
+                <designation>Proben Kontext</designation>
+                <definition>Kontext der Gewebeprobe</definition>
+            </definition>
+            <definition lang="en" uuid="29587504-cd3a-45f9-8378-c56641a83f84">
+                <designation>Sample Context</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+            <definition lang="de" uuid="8652e185-7ca5-4eab-8f98-3683f23101ff">
+                <designation>Gesundes Gewebe</designation>
+                <definition>Kontext der Probe</definition>
+            </definition>
+            <definition lang="en" uuid="8652e185-7ca5-4eab-8f98-3683f23101ff">
+                <designation>Healthy tissue</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+            <definition lang="de" uuid="ddc0393b-6fb9-4767-9214-de0065e0bc54">
+                <designation>Tumorgewebe</designation>
+                <definition>Kontext der Probe</definition>
+            </definition>
+            <definition lang="en" uuid="ddc0393b-6fb9-4767-9214-de0065e0bc54">
+                <designation>Tumour tissue</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+            <definition lang="de" uuid="245eaf39-86e2-4297-8c43-86e31e2c963f">
+                <designation>Fettleber</designation>
+                <definition>Kontext der Probe</definition>
+            </definition>
+            <definition lang="en" uuid="245eaf39-86e2-4297-8c43-86e31e2c963f">
+                <designation>Fatty liver</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+            <definition lang="de" uuid="f4759955-61d5-4deb-97ae-f095820b5e7a">
+                <designation>Atopisches Ekzem</designation>
+                <definition>Kontext der Probe</definition>
+            </definition>
+            <definition lang="en" uuid="f4759955-61d5-4deb-97ae-f095820b5e7a">
+                <designation>Atopic eczema</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+            <definition lang="de" uuid="487cf200-3ba6-400d-9866-82aeb1456be2">
+                <designation>Knochenbruch</designation>
+                <definition>Kontext der Probe</definition>
+            </definition>
+            <definition lang="en" uuid="487cf200-3ba6-400d-9866-82aeb1456be2">
+                <designation>Broken bone</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+            <definition lang="de" uuid="a1f3c431-4419-4d26-a79f-dd844a52eb73">
+                <designation>Myopathischer Muskel</designation>
+                <definition>Kontext der Probe</definition>
+            </definition>
+            <definition lang="en" uuid="a1f3c431-4419-4d26-a79f-dd844a52eb73">
+                <designation>Myopathic muscle</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+            <definition lang="de" uuid="7544fbf0-d37b-42fa-80b3-90a90dd9ef9f">
+                <designation>Arthritisches Gelenk</designation>
+                <definition>Kontext der Probe</definition>
+            </definition>
+            <definition lang="en" uuid="7544fbf0-d37b-42fa-80b3-90a90dd9ef9f">
+                <designation>Arthritic joint</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+            <definition lang="de" uuid="fed2d989-4a68-4c73-b9cd-b4e703f415de">
+                <designation>Gastritischer Magen</designation>
+                <definition>Kontext der Probe</definition>
+            </definition>
+            <definition lang="en" uuid="fed2d989-4a68-4c73-b9cd-b4e703f415de">
+                <designation>Gastritic stomach</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+            <definition lang="de" uuid="d76d9232-8ff0-4ffc-be87-d0e39fdc0451">
+                <designation>Atelektatische Pleura</designation>
+                <definition>Kontext der Probe</definition>
+            </definition>
+            <definition lang="en" uuid="d76d9232-8ff0-4ffc-be87-d0e39fdc0451">
+                <designation>Atelectatic pleura</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+            <definition lang="de" uuid="7b471762-5939-4509-adb8-4f25a530ae61">
+                <designation>Asthmatisches Bronchialgewebe</designation>
+                <definition>Kontext der Probe</definition>
+            </definition>
+            <definition lang="en" uuid="7b471762-5939-4509-adb8-4f25a530ae61">
+                <designation>Asthmatic bronchia</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+            <definition lang="de" uuid="01ce0044-95db-4e80-a510-2dd7f33ff022">
+                <designation>Vernarbtes Nierengewebe</designation>
+                <definition>Kontext der Probe</definition>
+            </definition>
+            <definition lang="en" uuid="01ce0044-95db-4e80-a510-2dd7f33ff022">
+                <designation>Scarred Kidney</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+            <definition lang="de" uuid="ba9e2a82-5945-4bf1-92d8-a53204446f34">
+                <designation>Jodmangel Schilddrüse</designation>
+                <definition>Kontext der Probe</definition>
+            </definition>
+            <definition lang="en" uuid="ba9e2a82-5945-4bf1-92d8-a53204446f34">
+                <designation>Iodine deficient thyroid</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+            <definition lang="de" uuid="7f25ad6e-660d-42cf-a99c-478eabf7974d">
+                <designation>Krampfader</designation>
+                <definition>Kontext der Probe</definition>
+            </definition>
+            <definition lang="en" uuid="7f25ad6e-660d-42cf-a99c-478eabf7974d">
+                <designation>Varicose vein</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+            <definition lang="de" uuid="f4de5fd8-6314-4f7e-8e34-8791fb4f4ec3">
+                <designation>Nekrotisches Nervengewebe</designation>
+                <definition>Kontext der Probe</definition>
+            </definition>
+            <definition lang="en" uuid="f4de5fd8-6314-4f7e-8e34-8791fb4f4ec3">
+                <designation>Necrotic nerve tissue</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+            <definition lang="de" uuid="e1f6b3c9-0975-41f4-b28e-d04cee5fefa3">
+                <designation>Konjunktivitisches Gewebe</designation>
+                <definition>Kontext der Probe</definition>
+            </definition>
+            <definition lang="en" uuid="e1f6b3c9-0975-41f4-b28e-d04cee5fefa3">
+                <designation>Conjunctivitiv tissue</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+            <definition lang="de" uuid="5848bb3f-46a8-4272-8f83-6d5a77441ed1">
+                <designation>Flüssigmaterial</designation>
+                <definition>Kontext der Probe</definition>
+            </definition>
+            <definition lang="en" uuid="5848bb3f-46a8-4272-8f83-6d5a77441ed1">
+                <designation>Liquid sample</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+            <definition lang="de" uuid="9c8fc1d5-b7ab-4094-bc34-d014343b3b1c">
+                <designation>Anderer Probenkontext</designation>
+                <definition>Kontext der Probe</definition>
+            </definition>
+            <definition lang="en" uuid="9c8fc1d5-b7ab-4094-bc34-d014343b3b1c">
+                <designation>Other sample context</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+            <definition lang="de" uuid="8d277e8c-f3e6-49e6-b26d-9c7e1e03d5f0">
+                <designation>Unbekannter Probenkontext</designation>
+                <definition>Kontext der Probe</definition>
+            </definition>
+            <definition lang="en" uuid="8d277e8c-f3e6-49e6-b26d-9c7e1e03d5f0">
+                <designation>Uncharted sample context</designation>
+                <definition>Context of sampling (anything that happens to the body)</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>21</identifier>
+        <version>1</version>
+        <element>29587504-cd3a-45f9-8378-c56641a83f84</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <dataElementGroup uuid="562be07a-3403-4216-8483-d83f29f07022"/>
+    <scopedIdentifier uuid="a32a86ba-72ae-4f49-86ce-beef8120bf50">
+        <definitions>
+            <definition lang="de" uuid="562be07a-3403-4216-8483-d83f29f07022">
+                <designation>Proben Kontext</designation>
+                <definition>Kontext der Probenentnahme</definition>
+            </definition>
+            <definition lang="en" uuid="562be07a-3403-4216-8483-d83f29f07022">
+                <designation>Sample Context</designation>
+                <definition>Anything that happens to the body</definition>
+            </definition>
+        </definitions>
+        <slots/>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>4</identifier>
+        <version>1</version>
+        <element>562be07a-3403-4216-8483-d83f29f07022</element>
+        <status>RELEASED</status>
+        <sub>fb5f55f9-d54b-4e7f-a15c-bc7498b2b880</sub>
+        <sub>90c27eaa-1059-4cd9-8c9d-10cd8d87b650</sub>
+    </scopedIdentifier>
+    <describedValueDomain uuid="b775eecd-40e6-429b-90d7-beee6624a491">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="8503670a-b9aa-4aac-86fc-53e3cff081f4">
+        <valueDomain>b775eecd-40e6-429b-90d7-beee6624a491</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="5656baf5-de49-49b0-9338-c5ada0fb1aa3">
+        <definitions>
+            <definition lang="de" uuid="8503670a-b9aa-4aac-86fc-53e3cff081f4">
+                <designation>Spender ID</designation>
+                <definition>ggf. Fremd-ID</definition>
+            </definition>
+            <definition lang="en" uuid="8503670a-b9aa-4aac-86fc-53e3cff081f4">
+                <designation>Donor ID</designation>
+                <definition>Possibly foreign ID</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>22</identifier>
+        <version>1</version>
+        <element>8503670a-b9aa-4aac-86fc-53e3cff081f4</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="30e99c7a-74f8-4269-8d87-ffc13012152c">
+        <format>DD.MM.YYYY</format>
+        <datatype>DATE</datatype>
+        <maxCharacters>10</maxCharacters>
+        <description>DD.MM.YYYY</description>
+        <validationType>DATE</validationType>
+        <validationData>DIN_5008_WITH_DAYS</validationData>
+    </describedValueDomain>
+    <dataElement uuid="86212f39-f5b2-4afb-a3d5-9e71746fb6c2">
+        <valueDomain>30e99c7a-74f8-4269-8d87-ffc13012152c</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="12a3909f-5ad3-4d2b-8145-44b0e46a0ca1">
+        <definitions>
+            <definition lang="de" uuid="86212f39-f5b2-4afb-a3d5-9e71746fb6c2">
+                <designation>Geburtsdatum</designation>
+                <definition>Geburtsdatum des Probenspenders (nur abgerufen, nicht ausgegeben)</definition>
+            </definition>
+            <definition lang="en" uuid="86212f39-f5b2-4afb-a3d5-9e71746fb6c2">
+                <designation>Date of birth</designation>
+                <definition>Date of birth (charted, not shown)</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>23</identifier>
+        <version>1</version>
+        <element>86212f39-f5b2-4afb-a3d5-9e71746fb6c2</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <permissibleValue valueDomain="b90ee8c9-70ab-4ee0-ab3e-99633703e8d1" uuid="80117d4e-a09b-4c4e-88c9-61048ee0bc75">
+        <value>female</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="b90ee8c9-70ab-4ee0-ab3e-99633703e8d1" uuid="88eb5b8f-f784-411c-8a1a-5b1099e8b534">
+        <value>male</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="b90ee8c9-70ab-4ee0-ab3e-99633703e8d1" uuid="d1edf78f-5194-4053-93fc-dc884313cb37">
+        <value>sex_other/intersexual</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="b90ee8c9-70ab-4ee0-ab3e-99633703e8d1" uuid="ba69f883-0f58-4cc3-9dd3-850db36e9399">
+        <value>sex_uncharted</value>
+    </permissibleValue>
+    <enumeratedValueDomain uuid="b90ee8c9-70ab-4ee0-ab3e-99633703e8d1">
+        <format>enumerated</format>
+        <datatype>enumerated</datatype>
+        <maxCharacters>0</maxCharacters>
+    </enumeratedValueDomain>
+    <dataElement uuid="87bbd314-ec85-476f-abae-8c097f18d707">
+        <valueDomain>b90ee8c9-70ab-4ee0-ab3e-99633703e8d1</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="6d084d5c-085c-4ac8-983c-f90b4bca5ab9">
+        <definitions>
+            <definition lang="de" uuid="87bbd314-ec85-476f-abae-8c097f18d707">
+                <designation>Geschlecht biologisch</designation>
+                <definition>Biologisches Geschlecht Probenspender</definition>
+            </definition>
+            <definition lang="en" uuid="87bbd314-ec85-476f-abae-8c097f18d707">
+                <designation>Sex</designation>
+                <definition>Biological sex of sample donor</definition>
+            </definition>
+            <definition lang="de" uuid="80117d4e-a09b-4c4e-88c9-61048ee0bc75">
+                <designation>Weiblich</designation>
+                <definition>Geschlecht Probenspender</definition>
+            </definition>
+            <definition lang="en" uuid="80117d4e-a09b-4c4e-88c9-61048ee0bc75">
+                <designation>Female</designation>
+                <definition>Biological sex of sample donor</definition>
+            </definition>
+            <definition lang="de" uuid="88eb5b8f-f784-411c-8a1a-5b1099e8b534">
+                <designation>Männlich</designation>
+                <definition>Geschlecht Probenspender</definition>
+            </definition>
+            <definition lang="en" uuid="88eb5b8f-f784-411c-8a1a-5b1099e8b534">
+                <designation>Male</designation>
+                <definition>Biological sex of sample donor</definition>
+            </definition>
+            <definition lang="de" uuid="d1edf78f-5194-4053-93fc-dc884313cb37">
+                <designation>Andere/intersexuell</designation>
+                <definition>Geschlecht Probenspender</definition>
+            </definition>
+            <definition lang="en" uuid="d1edf78f-5194-4053-93fc-dc884313cb37">
+                <designation>Other/intersexual</designation>
+                <definition>Biological sex of sample donor</definition>
+            </definition>
+            <definition lang="de" uuid="ba69f883-0f58-4cc3-9dd3-850db36e9399">
+                <designation>Geschlecht unbekannt</designation>
+                <definition>Geschlecht Probenspender</definition>
+            </definition>
+            <definition lang="en" uuid="ba69f883-0f58-4cc3-9dd3-850db36e9399">
+                <designation>Sex uncharted</designation>
+                <definition>Biological sex of sample donor</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>24</identifier>
+        <version>1</version>
+        <element>87bbd314-ec85-476f-abae-8c097f18d707</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="c86f3241-77de-4070-8fdd-f2ea6dbfc959">
+        <format>DD.MM.YYYY</format>
+        <datatype>DATE</datatype>
+        <maxCharacters>10</maxCharacters>
+        <description>DD.MM.YYYY</description>
+        <validationType>DATE</validationType>
+        <validationData>DIN_5008_WITH_DAYS</validationData>
+    </describedValueDomain>
+    <dataElement uuid="5e21460b-1790-4eb6-a6b3-a1266cd481ad">
+        <valueDomain>c86f3241-77de-4070-8fdd-f2ea6dbfc959</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="5396ae93-f4ac-4010-b6cd-e04dd53776d4">
+        <definitions>
+            <definition lang="de" uuid="5e21460b-1790-4eb6-a6b3-a1266cd481ad">
+                <designation>Todesdatum</designation>
+                <definition>Todesdatum des Probenspenders (wenn bekannt)</definition>
+            </definition>
+            <definition lang="en" uuid="5e21460b-1790-4eb6-a6b3-a1266cd481ad">
+                <designation>Date of death</designation>
+                <definition>Date of death (when given)</definition>
+            </definition>
+        </definitions>
+        <slots>
+            <slot>
+                <key>Quellsystem_Dokumentationsanteil</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Relevant_fuer_Datensatz_ID</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Hersteller_Produkt_Version</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Betreibende_Organisationseinheit</key>
+                <value></value>
+            </slot>
+            <slot>
+                <key>Quellsystem_Typ</key>
+                <value></value>
+            </slot>
+        </slots>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>25</identifier>
+        <version>1</version>
+        <element>5e21460b-1790-4eb6-a6b3-a1266cd481ad</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <dataElementGroup uuid="f14f62bf-8dfd-4806-a7ee-d2e51686b825"/>
+    <scopedIdentifier uuid="248196c3-984a-4ed8-ad8d-7bb509ca20da">
+        <definitions>
+            <definition lang="de" uuid="f14f62bf-8dfd-4806-a7ee-d2e51686b825">
+                <designation>Spender</designation>
+                <definition>Probenspender</definition>
+            </definition>
+            <definition lang="en" uuid="f14f62bf-8dfd-4806-a7ee-d2e51686b825">
+                <designation>Donor</designation>
+                <definition>Sample donor</definition>
+            </definition>
+        </definitions>
+        <slots/>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>5</identifier>
+        <version>1</version>
+        <element>f14f62bf-8dfd-4806-a7ee-d2e51686b825</element>
+        <status>RELEASED</status>
+        <sub>5656baf5-de49-49b0-9338-c5ada0fb1aa3</sub>
+        <sub>12a3909f-5ad3-4d2b-8145-44b0e46a0ca1</sub>
+        <sub>6d084d5c-085c-4ac8-983c-f90b4bca5ab9</sub>
+        <sub>5396ae93-f4ac-4010-b6cd-e04dd53776d4</sub>
+    </scopedIdentifier>
+    <describedValueDomain uuid="10ee122d-3fbe-4359-b083-c35900f65286">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="84bdd36c-56b2-4dc8-ab5f-5d9303b587ac">
+        <valueDomain>10ee122d-3fbe-4359-b083-c35900f65286</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="eaaf3c0c-94ce-4932-a8bb-f849b043b980">
+        <definitions>
+            <definition lang="en" uuid="84bdd36c-56b2-4dc8-ab5f-5d9303b587ac">
+                <designation>DiagnosisOrpha</designation>
+                <definition>Orphanet code for the diagnosis</definition>
+            </definition>
+        </definitions>
+        <slots/>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>43</identifier>
+        <version>1</version>
+        <element>84bdd36c-56b2-4dc8-ab5f-5d9303b587ac</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="eaa35ebc-2042-4429-a739-0d1d8f41cc74">
+        <format>DD/MM/YYYY</format>
+        <datatype>DATE</datatype>
+        <maxCharacters>10</maxCharacters>
+        <description>DD/MM/YYYY</description>
+        <validationType>DATE</validationType>
+        <validationData>DIN_5008_WITH_DAYS</validationData>
+    </describedValueDomain>
+    <dataElement uuid="4e872811-4312-4c0d-bbee-b446d794da20">
+        <valueDomain>eaa35ebc-2042-4429-a739-0d1d8f41cc74</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="ab2697de-13bc-44e0-9763-5aa76e32eecb">
+        <definitions>
+            <definition lang="en" uuid="4e872811-4312-4c0d-bbee-b446d794da20">
+                <designation>BornDate</designation>
+                <definition>Date of birth</definition>
+            </definition>
+        </definitions>
+        <slots/>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>40</identifier>
+        <version>1</version>
+        <element>4e872811-4312-4c0d-bbee-b446d794da20</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="f8d8e897-b763-4b10-978c-009890bb194e">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="bb34f4f7-b7ee-42c5-aa09-c2f448661a8f">
+        <valueDomain>f8d8e897-b763-4b10-978c-009890bb194e</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="cee89c29-349b-46a4-940e-72cf306af060">
+        <definitions>
+            <definition lang="en" uuid="bb34f4f7-b7ee-42c5-aa09-c2f448661a8f">
+                <designation>DonorID</designation>
+                <definition>Foreign key pointing to patient/donor</definition>
+            </definition>
+        </definitions>
+        <slots/>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>45</identifier>
+        <version>1</version>
+        <element>bb34f4f7-b7ee-42c5-aa09-c2f448661a8f</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="89c3207d-e2f0-46d4-81ff-3d6b6c47a407">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="699eac84-79d3-443f-a091-8a61806f79cc">
+        <valueDomain>89c3207d-e2f0-46d4-81ff-3d6b6c47a407</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="fe5549aa-de72-4587-b1a7-a8da36286e99">
+        <definitions>
+            <definition lang="en" uuid="699eac84-79d3-443f-a091-8a61806f79cc">
+                <designation>FamilyMemberID</designation>
+                <definition>Foreign key for this family member</definition>
+            </definition>
+        </definitions>
+        <slots/>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>44</identifier>
+        <version>1</version>
+        <element>699eac84-79d3-443f-a091-8a61806f79cc</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <describedValueDomain uuid="4c818156-3c48-4255-b811-15c27694fe16">
+        <format></format>
+        <datatype>STRING</datatype>
+        <maxCharacters>0</maxCharacters>
+        <description></description>
+        <validationType>NONE</validationType>
+    </describedValueDomain>
+    <dataElement uuid="aa9fb7ce-f94b-49de-975b-57bea71bdfc5">
+        <valueDomain>4c818156-3c48-4255-b811-15c27694fe16</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="3f27f011-94c5-4850-9b28-45bb30a72955">
+        <definitions>
+            <definition lang="en" uuid="aa9fb7ce-f94b-49de-975b-57bea71bdfc5">
+                <designation>Name</designation>
+                <definition>Full name</definition>
+            </definition>
+        </definitions>
+        <slots/>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>36</identifier>
+        <version>1</version>
+        <element>aa9fb7ce-f94b-49de-975b-57bea71bdfc5</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <permissibleValue valueDomain="e70f32d5-e7df-46da-a12d-21b351efa3bb" uuid="8adf4b44-92cc-47c8-89d5-2d9548e482f1">
+        <value>FAMMEMB</value>
+    </permissibleValue>
+    <enumeratedValueDomain uuid="e70f32d5-e7df-46da-a12d-21b351efa3bb">
+        <format>enumerated</format>
+        <datatype>enumerated</datatype>
+        <maxCharacters>7</maxCharacters>
+    </enumeratedValueDomain>
+    <dataElement uuid="6f1623e2-8021-4cf6-b706-309953e4933d">
+        <valueDomain>e70f32d5-e7df-46da-a12d-21b351efa3bb</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="306be584-8f84-4d92-831a-ec4842ef69c1">
+        <definitions>
+            <definition lang="en" uuid="6f1623e2-8021-4cf6-b706-309953e4933d">
+                <designation>Relationship</designation>
+                <definition>Defines how this person is related to the patient/donor</definition>
+            </definition>
+            <definition lang="en" uuid="8adf4b44-92cc-47c8-89d5-2d9548e482f1">
+                <designation>Related</designation>
+                <definition>Indicates that this person is related to a patient/donor, without giving any more details.</definition>
+            </definition>
+        </definitions>
+        <slots/>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>37</identifier>
+        <version>1</version>
+        <element>6f1623e2-8021-4cf6-b706-309953e4933d</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <permissibleValue valueDomain="8ae2082e-2085-4a3c-9403-1422a52c80c9" uuid="6298e373-19a4-4a73-bfae-a814a3902079">
+        <value>female</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="8ae2082e-2085-4a3c-9403-1422a52c80c9" uuid="0010be18-b476-4b4b-adaf-65cea3d64f34">
+        <value>male</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="8ae2082e-2085-4a3c-9403-1422a52c80c9" uuid="1f70b2f9-22e0-409e-8ce0-999646327126">
+        <value>Other</value>
+    </permissibleValue>
+    <permissibleValue valueDomain="8ae2082e-2085-4a3c-9403-1422a52c80c9" uuid="082802b0-e890-4478-9622-205f8e5f14e9">
+        <value>Unknown</value>
+    </permissibleValue>
+    <enumeratedValueDomain uuid="8ae2082e-2085-4a3c-9403-1422a52c80c9">
+        <format>enumerated</format>
+        <datatype>enumerated</datatype>
+        <maxCharacters>7</maxCharacters>
+    </enumeratedValueDomain>
+    <dataElement uuid="d7c6668b-336a-4646-a01d-d38c0c5bd13a">
+        <valueDomain>8ae2082e-2085-4a3c-9403-1422a52c80c9</valueDomain>
+    </dataElement>
+    <scopedIdentifier uuid="7d7afc2f-1e59-4342-b54e-38acf4bc4598">
+        <definitions>
+            <definition lang="en" uuid="d7c6668b-336a-4646-a01d-d38c0c5bd13a">
+                <designation>Sex</designation>
+                <definition>Sex of the family member</definition>
+            </definition>
+            <definition lang="en" uuid="6298e373-19a4-4a73-bfae-a814a3902079">
+                <designation>Female</designation>
+                <definition>Female</definition>
+            </definition>
+            <definition lang="en" uuid="0010be18-b476-4b4b-adaf-65cea3d64f34">
+                <designation>Male</designation>
+                <definition>Male</definition>
+            </definition>
+            <definition lang="en" uuid="1f70b2f9-22e0-409e-8ce0-999646327126">
+                <designation>Other</designation>
+                <definition>Other</definition>
+            </definition>
+            <definition lang="en" uuid="082802b0-e890-4478-9622-205f8e5f14e9">
+                <designation>Unknown</designation>
+                <definition>Unknown</definition>
+            </definition>
+        </definitions>
+        <slots/>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>38</identifier>
+        <version>1</version>
+        <element>d7c6668b-336a-4646-a01d-d38c0c5bd13a</element>
+        <status>RELEASED</status>
+    </scopedIdentifier>
+    <dataElementGroup uuid="c9ce3611-aa56-432d-b5b2-4f6289227eb9"/>
+    <scopedIdentifier uuid="99a6285d-21c1-4d6f-b443-14a862b3a3cf">
+        <definitions>
+            <definition lang="en" uuid="c9ce3611-aa56-432d-b5b2-4f6289227eb9">
+                <designation>FamilyMember</designation>
+                <definition>A family member with the same condition as a patient/donor</definition>
+            </definition>
+        </definitions>
+        <slots/>
+        <namespace>a5f1a15d-f1af-4fc4-a9e6-e63a5f6a7a36</namespace>
+        <identifier>7</identifier>
+        <version>14</version>
+        <element>c9ce3611-aa56-432d-b5b2-4f6289227eb9</element>
+        <status>RELEASED</status>
+        <sub>eaaf3c0c-94ce-4932-a8bb-f849b043b980</sub>
+        <sub>ab2697de-13bc-44e0-9763-5aa76e32eecb</sub>
+        <sub>cee89c29-349b-46a4-940e-72cf306af060</sub>
+        <sub>fe5549aa-de72-4587-b1a7-a8da36286e99</sub>
+        <sub>3f27f011-94c5-4850-9b28-45bb30a72955</sub>
+        <sub>306be584-8f84-4d92-831a-ec4842ef69c1</sub>
+        <sub>7d7afc2f-1e59-4342-b54e-38acf4bc4598</sub>
+    </scopedIdentifier>
+</export>

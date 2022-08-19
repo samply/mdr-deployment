@@ -1,0 +1,7 @@
+<oAuth2Provider xmlns="http://schema.samply.de/config/OAuth2Provider"
+    xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schema.samply.de/config/OAuth2Provider http://schema.samply.de/config/OAuth2Provider.xsd ">
+    <privateKey/>
+    <publicKey/>
+    <issuer/>
+</oAuth2Provider>
